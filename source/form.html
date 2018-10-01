@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Кэт энерджи</title>
+  </head>
+  <body>
+
+    <header class="header-all-page">
+      <div class="wrapper">
+        <a class="header-all-page__logo logo-main" href="index.html">
+          <img class="logo-main__cat-logo image-cat-logo" src="http://placehold.it/150x100" alt="Картинка логотипа-кот">
+          <img class="logo-main__cat-logo image-write-logo" src="http://placehold.it/150x100" alt="CatEnergy">
+        </a>
+        <nav class="main-navigation">
+          <ul class="menu-header">
+            <li class="menu-header__item"><a class="menu-header__link" href="#">Главная</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="#">Каталог продукции</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="#">Выбор программы</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="title-page">Подбор программы</h1>
+      <section class="filter-programm">
+        <h2 class="visiually-hidden">Выбирете значения форм</h2>
+        <p class="filter-programm__instruction">Заполните анкету и мы подберем программу питания для вашего кота</p>
+        <form class="filter-programm__form choose-form" action="https://echo.htmlacademy.ru" method="post" >
+          <fieldset class="choose-form__shared-data shared-data">
+            <div class="shared-data__form-wrap">
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="name-cat">Имя:*</label>
+                <input class="element-form__input" type="text" name="name-cat" id="name-cat" placeholder="Барсик">
+              </p>
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="fat-cat">Вес(кг):*</label>
+                <input class="element-form__input" type="text" name="fat-cat" id="fat-cat" placeholder="7">
+              </p>
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="year-cat">Возраст(лет):*</label>
+                <input class="element-form__input" type="text" name="year-cat" id="year-cat" placeholder="7">
+              </p>
+            </div>
+          </fieldset>
+          <fieldset class="choose-form__shared-data shared-data">
+            <div class="shared-data__form-wrap">
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="slim-cat">Похудение</label>
+                <input class="element-form__input visiually-hidden" type="radio" name="program" id="slim-cat">
+              </p>
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="mas-cat">Набор массы</label>
+                <input class="element-form__input visiually-hidden" type="radio" name="program" id="mas-cat">
+              </p>
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="dont-cat">Не знаю(нужен ваш совет)</label>
+                <input class="element-form__input visiually-hidden" type="radio" name="program" id="dont-cat">
+              </p>
+            </div>
+          </fieldset>
+          <fieldset class="choose-form__shared-data shared-data">
+            <legend class="shared-data__title">Контактные данные(владельца кота)</legend>
+            <div class="shared-data__form-wrap">
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="email-user">E-mail</label>
+                <input class="element-form__input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com">
+              </p>
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="phone-user">Телефон</label>
+                <input class="element-form__input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90">
+              </p>
+            </div>
+          </fieldset>
+          <fieldset class="choose-form__shared-data shared-data">
+            <legend class="shared-data__title">Комментарий</legend>
+            <textarea name="shared-data__comment comment" rows="8" cols="80" placeholder="расскажеите обо всех падодках кота"></textarea>
+          </fieldset>
+          <fieldset class="choose-form__shared-data shared-data">
+            <legend class="shared-data__title">Дополнительно</legend>
+            <div class="shared-data__form-wrap">
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="sugar">Сахарохаменитель</label>
+                <input class="element-form__input visiually-hidden" type="checkbox" name="sugar" id="sugar">
+              </p>
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="water">Питьевая вода</label>
+                <input class="element-form__input visiually-hidden" type="checkbox" name="water" id="water">
+              </p>
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="milk">Молоко</label>
+                <input class="element-form__input visiually-hidden" type="checkbox" name="milk" id="milk">
+              </p>
+              <p class="shared-data__element-form element-form">
+                <label class="element-form__label" for="vitamin">Витамины</label>
+                <input class="element-form__input visiually-hidden" type="checkbox" name="vitamin" id="vitamin">
+              </p>
+            </div>
+          </fieldset>
+          <button class="choose-form__btn-filter btn" type="submit" name="done">Заказать</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer-all-page">
+      <section class="footer-all-page__other-information other-information">
+        <h4 class="other-information__elements">Приглашаем к сотрудничеству</h4>
+        <address class="other-information__place">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+      </section>
+      <p class="footer-all-page__map map">
+        <!--Карта -->
+      </p>
+      <section class="footer-all-page__link-information link-information">
+        <h2 class="visiually-hidden">Ссылки</h2>
+        <div class="wrapper">
+          <a class="link-information__logo logo-main" href="index.html">
+            <img class="logo-main__cat-logo image-write-logo" src="#" alt="CatEnergy">
+          </a>
+          <ul class="footer-all-page__social social">
+            <li class="social__item"><a class="social__link" href="#"><span class="visiually-hidden">Смотрите в вк</span></a></li>
+            <li class="social__item"><a class="social__link" href="#"><span class="visiually-hidden">Смотрите в вк</span></a></li>
+            <li class="social__item"><a class="social__link" href="#"><span class="visiually-hidden">Смотрите в вк</span></a></li>
+          </ul>
+          <p class="footer-all-page__html-academy html-academy">
+            <a class="html-academy__link" href="#">
+              <span class="html-academy__name">Html Academy</span>
+              <img class="html-academy__logo" src="http://placehold.it/150x100" alt="Логотип академии">
+            </a>
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
