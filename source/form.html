@@ -27,9 +27,9 @@
       <section class="filter-programm">
         <h2 class="visiually-hidden">Выбирете значения форм</h2>
         <p class="filter-programm__instruction">Заполните анкету и мы подберем программу питания для вашего кота</p>
-        <form class="filter-programm__form" action="https://echo.htmlacademy.ru" method="post" >
-          <fieldset class="filter-programm__shared-data shared-data">
-            <div class="form-wrap">
+        <form class="filter-programm__form choose-form" action="https://echo.htmlacademy.ru" method="post" >
+          <fieldset class="choose-form__shared-data shared-data">
+            <div class="shared-data__form-wrap">
               <p class="shared-data__element-form element-form">
                 <label class="element-form__label" for="name-cat">Имя:*</label>
                 <input class="element-form__input" type="text" name="name-cat" id="name-cat" placeholder="Барсик">
@@ -44,8 +44,8 @@
               </p>
             </div>
           </fieldset>
-          <fieldset class="filter-programm__shared-data shared-data">
-            <div class="form-wrap">
+          <fieldset class="choose-form__shared-data shared-data">
+            <div class="shared-data__form-wrap">
               <p class="shared-data__element-form element-form">
                 <label class="element-form__label" for="slim-cat">Похудение</label>
                 <input class="element-form__input visiually-hidden" type="radio" name="program" id="slim-cat">
@@ -60,26 +60,26 @@
               </p>
             </div>
           </fieldset>
-          <fieldset class="filter-programm__shared-data shared-data">
+          <fieldset class="choose-form__shared-data shared-data">
             <legend class="shared-data__title">Контактные данные(владельца кота)</legend>
-            <div class="form-wrap">
+            <div class="shared-data__form-wrap">
               <p class="shared-data__element-form element-form">
                 <label class="element-form__label" for="email-user">E-mail</label>
-                <input class="element-form__input" type="text" name="email" id="email-user" placeholder="kuklachev@gmail.com">
+                <input class="element-form__input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com">
               </p>
               <p class="shared-data__element-form element-form">
                 <label class="element-form__label" for="phone-user">Телефон</label>
-                <input class="element-form__input" type="text" name="phone" id="phone-user" placeholder="8 (960) 900-60-90">
+                <input class="element-form__input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90">
               </p>
             </div>
           </fieldset>
-          <fieldset class="filter-programm__shared-data shared-data">
+          <fieldset class="choose-form__shared-data shared-data">
             <legend class="shared-data__title">Комментарий</legend>
             <textarea name="shared-data__comment comment" rows="8" cols="80" placeholder="расскажеите обо всех падодках кота"></textarea>
           </fieldset>
-          <fieldset class="filter-programm__shared-data shared-data">
+          <fieldset class="choose-form__shared-data shared-data">
             <legend class="shared-data__title">Дополнительно</legend>
-            <div class="form-wrap">
+            <div class="shared-data__form-wrap">
               <p class="shared-data__element-form element-form">
                 <label class="element-form__label" for="sugar">Сахарохаменитель</label>
                 <input class="element-form__input visiually-hidden" type="checkbox" name="sugar" id="sugar">
@@ -98,7 +98,7 @@
               </p>
             </div>
           </fieldset>
-          <button class="filter-programm__btn-filter btn" type="submit" name="done">Заказать</button>
+          <button class="choose-form__btn-filter btn" type="submit" name="done">Заказать</button>
         </form>
       </section>
     </main>
