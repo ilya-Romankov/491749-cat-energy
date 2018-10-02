@@ -1,0 +1,31 @@
+.menu-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.menu-header__item {
+  width: 100%;
+  padding: 21px 0 21px 0;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+}
+
+.menu-header__link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #111111;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu-header__item:hover .menu-header__link {
+  opacity: 0.6;
+}
+
+.menu-header__item:active .menu-header__link {
+  opacity: 0.3;
+}

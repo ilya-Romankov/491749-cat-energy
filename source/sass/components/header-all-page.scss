@@ -1,0 +1,43 @@
+.header-all-page {
+  width: 100%;
+}
+
+.header-all-page__wrapper {
+  margin: 0 auto;
+  padding-top: 11px;
+  width: 320px;
+}
+
+.header-all-page__wrapper-logo-switch {
+  display: flex;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.header-all-page__logo {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.header-all-page__switcher {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-top: 10px;
+  margin-right: 3px;
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header-all-page__switcher--close {
+  background: url("../img/icon-close.svg");
+}

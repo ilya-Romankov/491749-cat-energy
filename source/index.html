@@ -8,16 +8,18 @@
   <body>
 
     <header class="header-all-page">
-      <div class="wrapper">
-        <a class="header-all-page__logo logo-main">
-          <img class="logo-main__cat-logo image-cat-logo" src="http://placehold.it/150x100" alt="Картинка логотипа-кот">
-          <img class="logo-main__cat-logo image-write-logo" src="http://placehold.it/150x100" alt="CatEnergy">
-        </a>
+      <div class="header-all-page__wrapper">
+        <div class="header-all-page__wrapper-logo-switch">
+          <a class="header-all-page__logo logo-main">
+            <img class="logo-main__cat-logo image-cat-logo" src="../img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
+          </a>
+          <button class="header-all-page__switcher header-all-page__switcher--close" type="button" name="open-closs"></button>
+        </div>
         <nav class="main-navigation">
           <ul class="menu-header">
-            <li class="menu-header__item"><a class="menu-header__link" >Главная</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" tabindex="0">Главная</a></li>
             <li class="menu-header__item"><a class="menu-header__link" href="catalog.html">Каталог продукции</a></li>
-            <li class="menu-header__item"><a class="menu-header__link" href="form.html">Выбор программы</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="form.html">Подбор программы</a></li>
           </ul>
         </nav>
       </div>
@@ -25,9 +27,12 @@
 
     <main>
       <section class="preview">
-        <h1 class="preview__title title-page">Функциональноепитание для котов</h1>
-        <p class="preview__discription">Занялся собой? Займись котом!</p>
-        <a class="preview__link btn" href="#">Заказать программу!</a>
+        <div class="preview__wrapper">
+          <h1 class="preview__title title-page">Функциональное питание для котов</h1>
+          <p class="preview__discription">Занялся собой? Займись котом!</p>
+          <img class="preview__img" src="img/index-can-mobile@1x.png" alt="Картинка товара" width="280" height="270">
+          <a class="preview__link btn" href="#">Подобрать программу!</a>
+        </div>
       </section>
       <section class="programm-eat">
         <h2 class="programm-eat__title visiually-hidden">Наши программы</h2>
