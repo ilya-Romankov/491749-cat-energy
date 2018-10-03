@@ -1,0 +1,21 @@
+.social {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  list-style: none;
+  border-bottom: 1px solid #dadada;
+}
+
+.social__link {
+  display: block;
+  width: 22px;
+  height: 19px;
+  background-color: pink;
+}
+
+.social__link--space {
+  margin-left: 20px;
+  margin-right: 20px;
+}

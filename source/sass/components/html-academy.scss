@@ -1,0 +1,25 @@
+.html-academy {
+  margin: 0;
+}
+
+.html-academy__link {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 13px;
+}
+
+.html-academy__name {
+  display: block;
+  font-family: "Arial MT", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.html-academy__logo {
+  position: relative;
+  display: block;
+  top: -10px;
+  right: -10px;
+}

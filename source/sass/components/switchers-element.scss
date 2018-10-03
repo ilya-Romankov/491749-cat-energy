@@ -1,0 +1,19 @@
+.switchers-element {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.switchers-element__label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.switchers-element__indicator {
+  align-self: center;
+}

@@ -20,6 +20,7 @@
   flex-direction: column;
   width: 280px;
   margin: 0 auto;
+  margin-bottom: 22px;
   z-index: 1;
   border-top: 1px solid transparent;
 }
@@ -51,22 +52,4 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 3px;
-}
-
-.preview__link {
-  padding: 12px 0 12px 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #ffffff;
-
-  &:hover {
-    background-color: #5eaa2f;
-  }
-
-  &:active {
-    background-color: #5eaa2f;
-    color: rgba(255, 255, 255, 0.3);
-  }
 }
