@@ -1,0 +1,33 @@
+.advantageous-offer {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 62px;
+  padding-top: 124px;
+  padding-bottom: 40px;
+  width: 280px;
+  background: url("../../img/gift-photo-mobile@1x.jpg") no-repeat 100% 100%;
+
+  &::before {
+    content: "";
+    position: relative;
+    left: 50%;
+    top: -65px;
+    display: block;
+    margin-left: -27px;
+    width: 55px;
+    height: 65px;
+    background: url("../../img/icon-gift.svg") no-repeat 100% 100%;
+  }
+}
+
+.advantageous-offer__link {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  font-family: "Arial MT", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}

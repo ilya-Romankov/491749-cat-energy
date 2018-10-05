@@ -1,0 +1,45 @@
+.more-item {
+  position: relative;
+  padding-top: 79px;
+  padding-bottom: 20px;
+  width: 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    display: block;
+    margin-left: -15px;
+    width: 30px;
+    height: 30px;
+    background: url("../../img/icon-plus-mobile.svg") no-repeat 100% 100%;
+  }
+}
+
+.more-item__wrapper {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.more-item__title {
+  margin: 0;
+  margin-bottom: 9px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #111111;
+  text-align: center;
+}
+
+.more-item__discription {
+  margin: 0;
+  margin-bottom: 21px;
+  font-family: "Arial MT", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #444444;
+  text-align: center;
+}

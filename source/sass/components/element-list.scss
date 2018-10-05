@@ -1,9 +1,16 @@
+.element-list {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+}
+
 .element-list__wrapper {
   width: 140px;
 }
 
 .element-list__title {
   width: 72px;
+  margin-top: 20px;
+  margin-bottom: 13px;
 }
 
 .element-list__link {
@@ -11,9 +18,10 @@
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #111111;
+  color: #444444;
 }
 
 .element-list__characters {
   width: 100%;
+  margin-bottom: 15px;
 }
