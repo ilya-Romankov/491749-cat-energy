@@ -1,6 +1,7 @@
 .another-character {
   width: 100%;
   margin-bottom: 12px;
+  border-collapse: collapse;
 }
 
 .another-character__characters-one {
@@ -12,8 +13,7 @@
 }
 
 .another-character__characters-one--place-text-one {
-  position: relative;
-  left: -2px;
+  padding: 0;
   text-align: left;
 }
 
