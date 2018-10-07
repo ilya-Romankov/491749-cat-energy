@@ -53,9 +53,11 @@
 .shared-data__comment {
   box-sizing: border-box;
   display: block;
-  padding: 12px 0 0 15px;
+  padding: 12px 15px 1px 15px;
   width: 280px;
-  resize: none;
+  font-size: 16px;
+  line-height: 18px;
+  resize: vertical;
 }
 
 .shared-data__comment::placeholder {

@@ -14,7 +14,8 @@
 }
 
 .element-form__input--collect-text {
-  padding: 13px 0 13px 15px;
+  flex-grow: 1;
+  padding: 13px 15px 13px 15px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -29,6 +30,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #444444;
+  opacity: 1;
 }
 
 .element-form__label--first-data {
@@ -62,7 +64,8 @@
 }
 
 .element-form__label--contact-input {
-  padding: 13px 0 13px 15px;
+  flex-grow: 1;
+  padding: 13px 20px 13px 15px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -77,6 +80,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #444444;
+  opacity: 1;
 }
 
 .shared-data__form-wrap--contact {
