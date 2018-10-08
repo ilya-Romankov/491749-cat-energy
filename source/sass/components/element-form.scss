@@ -63,7 +63,7 @@
   padding-right: 11px;
 }
 
-.element-form__label--contact-input {
+.element-form__input--contact-input {
   flex-grow: 1;
   padding: 13px 20px 13px 15px;
   font-size: 16px;
@@ -74,7 +74,7 @@
   border: 1px solid #cdcdcd;
 }
 
-.element-form__label--contact-input::placeholder {
+.element-form__input--contact-input::placeholder {
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -106,9 +106,4 @@
     height: 30px;
     background-color: red;
   }
-}
-
-.shared-data__form-wrap--btn {
-  margin-top: 20px;
-  margin-bottom: 18px;
 }

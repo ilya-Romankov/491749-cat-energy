@@ -17,7 +17,7 @@
         </div>
         <nav class="main-navigation">
           <ul class="menu-header">
-            <li class="menu-header__item"><a class="menu-header__link" href="index.html">Главная</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="index.htmд">Главная</a></li>
             <li class="menu-header__item"><a class="menu-header__link" href="catalog.html">Каталог продукции</a></li>
             <li class="menu-header__item"><a class="menu-header__link">Подбор программы</a></li>
           </ul>
@@ -48,19 +48,19 @@
             </div>
           </fieldset>
           <fieldset class="choose-form__shared-data shared-data">
-            <div class="shared-data--wrapper">
+            <div class="shared-data__wrapper shared-data__wrapper--radio-programm">
               <div class="shared-data__form-wrap">
                 <p class="shared-data__element-form element-form element-form--mode-m">
                   <label class="element-form__label element-form__label--mode-label" for="slim-cat">Похудение</label>
-                  <input class="element-form__input visiually-hidden element-form__label--mode-input" type="radio" name="program" id="slim-cat" checked>
+                  <input class="element-form__input visiually-hidden" type="radio" name="program" id="slim-cat" checked>
                 </p>
                 <p class="shared-data__element-form element-form element-form--mode-m">
                   <label class="element-form__label element-form__label--mode-label" for="mas-cat">Набор массы</label>
-                  <input class="element-form__input visiually-hidden element-form__label--mode-input" type="radio" name="program" id="mas-cat">
+                  <input class="element-form__input visiually-hidden" type="radio" name="program" id="mas-cat">
                 </p>
                 <p class="shared-data__element-form element-form element-form--mode-m">
                   <label class="element-form__label element-form__label--mode-label" for="dont-cat">Не знаю (нужен ваш совет)</label>
-                  <input class="element-form__input visiually-hidden element-form__label--mode-input" type="radio" name="program" id="dont-cat">
+                  <input class="element-form__input visiually-hidden" type="radio" name="program" id="dont-cat">
                 </p>
               </div>
             </div>
@@ -70,11 +70,11 @@
             <div class="shared-data__form-wrap shared-data__form-wrap--contact">
               <p class="shared-data__element-form element-form">
                 <label class="element-form__label element-form__label--contact-label" for="email-user">E-mail:*</label>
-                <input class="element-form__input element-form__label--contact-input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com">
+                <input class="element-form__input element-form__input--contact-input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com">
               </p>
               <p class="shared-data__element-form element-form">
                 <label class="element-form__label element-form__label--contact-label" for="phone-user">Телефон:*</label>
-                <input class="element-form__input element-form__label--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90">
+                <input class="element-form__input element-form__input--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90">
               </p>
             </div>
           </fieldset>
@@ -105,8 +105,8 @@
               </p>
             </div>
           </fieldset>
-          <div class="shared-data__form-wrap shared-data__form-wrap--btn">
-            <button class="choose-form__btn-filter btn" type="submit" name="done">Отправить заявку</button>
+          <div class="choose-form__btn-wrap">
+            <button class="btn" type="submit" name="done">Отправить заявку</button>
           </div>
         </form>
         <span class="explanation">* — Обязательные поля</span>

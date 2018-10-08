@@ -11,7 +11,7 @@
   width: 280px;
 }
 
-.shared-data--wrapper {
+.shared-data__wrapper--radio-programm {
   box-sizing: border-box;
   padding-top: 25px;
   margin: 0 auto;
@@ -47,14 +47,15 @@
 
 .shared-data__form-wrap--comment {
   margin-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 26px;
 }
 
 .shared-data__comment {
   box-sizing: border-box;
   display: block;
-  padding: 12px 15px 1px 15px;
+  padding: 12px 12px 12px 15px;
   width: 280px;
+  height: 150px;
   font-size: 16px;
   line-height: 18px;
   resize: vertical;
