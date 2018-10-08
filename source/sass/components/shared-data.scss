@@ -1,0 +1,74 @@
+.shared-data {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  border: none;
+}
+
+.shared-data__form-wrap {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.shared-data__wrapper--radio-programm {
+  box-sizing: border-box;
+  padding-top: 25px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 320px;
+  border: 1px solid #ededed;
+}
+
+.shared-data--mar1 {
+  margin-bottom: 13px;
+}
+
+.shared-data__title {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 280px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #111111;
+
+  &::before {
+    content: "";
+    right: -10px;
+    top: 13px;
+    position: absolute;
+    width: 99px;
+    height: 3px;
+    background-color: #68b738;
+  }
+}
+
+.shared-data__form-wrap--comment {
+  margin-top: 35px;
+  margin-bottom: 26px;
+}
+
+.shared-data__comment {
+  box-sizing: border-box;
+  display: block;
+  padding: 12px 12px 12px 15px;
+  width: 280px;
+  height: 150px;
+  font-size: 16px;
+  line-height: 18px;
+  resize: vertical;
+}
+
+.shared-data__comment::placeholder {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.shared-data__form-wrap--more-choose {
+  margin-top: 40px;
+}

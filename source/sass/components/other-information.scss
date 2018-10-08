@@ -1,0 +1,25 @@
+.other-information {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.other-information__elements {
+  margin: 0;
+  width: 123px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.other-information__place {
+  padding-left: 4px;
+  width: 144px;
+  font-family: "Arial MT", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+  font-weight: 400;
+  color: #444444;
+}

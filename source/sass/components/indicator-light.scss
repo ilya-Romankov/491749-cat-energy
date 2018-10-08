@@ -1,0 +1,19 @@
+.indicator-light {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 84px;
+  height: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
+  border-radius: 25px;
+}
+
+.indicator-light__elements {
+  margin-top: 3px;
+  margin-left: 3px;
+  width: 35px;
+  height: 6px;
+  background-color: #68b738;
+  border-radius: 20px;
+}
