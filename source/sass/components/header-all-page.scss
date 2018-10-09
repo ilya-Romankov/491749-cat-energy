@@ -40,3 +40,16 @@
 .header-all-page__switcher--close {
   background: url("../img/icon-close.svg");
 }
+
+@media (min-width: 708px) {
+  .header-all-page__wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 708px;
+  }
+
+  .header-all-page__switcher {
+    display: none;
+  }
+}

@@ -28,3 +28,23 @@
 .menu-header__item:active .menu-header__link {
   opacity: 0.3;
 }
+
+@media (min-width: 708px) {
+  .menu-header {
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .menu-header__item {
+    width: auto;
+    padding: 0;
+    border: none;
+  }
+
+  .menu-header__link {
+    font-size: 18px;
+    line-height: 24.86px;
+    font-weight: 400;
+  }
+}
