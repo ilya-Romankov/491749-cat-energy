@@ -23,3 +23,33 @@
   font-weight: 400;
   color: #444444;
 }
+
+@media (min-width: 768px) {
+  .other-information {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+  }
+
+  .other-information__elements {
+    width: 160px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .other-information__place {
+    width: 160px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .other-information {
+    top: 120px;
+    left: 100px;
+    position: absolute;
+    width: 570px;
+    background-color: #ffffff;
+  }
+}

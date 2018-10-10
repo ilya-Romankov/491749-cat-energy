@@ -90,3 +90,60 @@
     background: url("../img/icon-right-arrow-long.svg") no-repeat;
   }
 }
+
+@media (min-width: 768px) {
+  .view-program {
+    &::before {
+      top: 35px;
+      left: auto;
+      right: 10px;
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  .view-program--cat-slim {
+    &::after {
+      top: 35px;
+      left: auto;
+      right: 45px;
+      width: 140px;
+      height: 194px;
+      background: url("../../img/icon-cat-slim.svg") no-repeat 100% 100%;
+    }
+  }
+
+  .view-program--cat-pro {
+    &::after {
+      top: 85px;
+      left: auto;
+      right: 0;
+      width: 268px;
+      height: 112px;
+      background: url("../../img/icon-cat-pro.svg") no-repeat 100% 100%;
+    }
+  }
+
+  .view-program__title {
+    width: 210px;
+    margin-left: 20px;
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .view-program__discription {
+    width: 370px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .view-program__link {
+    border: none;
+  }
+}
+
+@media (min-width: 1300px) {
+  .view-program {
+    width: 570px;
+  }
+}

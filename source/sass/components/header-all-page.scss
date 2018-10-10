@@ -41,7 +41,7 @@
   background: url("../img/icon-close.svg");
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .header-all-page__wrapper {
     display: flex;
     align-items: center;
@@ -51,5 +51,18 @@
 
   .header-all-page__switcher {
     display: none;
+  }
+}
+
+@media (min-width: 1300px) {
+  .header-all-page__wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1220px;
+  }
+
+  .header-all-page__wrapper-logo-switch {
+    margin-left: 0;
   }
 }

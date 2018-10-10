@@ -29,7 +29,7 @@
   opacity: 0.3;
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .menu-header {
     justify-content: space-between;
     flex-direction: row;
@@ -44,7 +44,15 @@
 
   .menu-header__link {
     font-size: 18px;
-    line-height: 24.86px;
+    line-height: 25px;
     font-weight: 400;
+  }
+}
+
+@media (min-width: 1300px) {
+  .menu-header__link {
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
   }
 }

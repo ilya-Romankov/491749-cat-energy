@@ -54,12 +54,11 @@
   margin-bottom: 3px;
 }
 
-@media (min-width: 708px) {
-
+@media (min-width: 768px) {
   .preview {
-      &::before {
-          display: none;
-      }
+    &::before {
+      display: none;
+    }
   }
 
   .preview__wrapper {
@@ -99,5 +98,35 @@
 
   .preview__link {
     width: 245px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .preview {
+    &::before {
+      top: -40px;
+      left: auto;
+      right: 10px;
+      display: block;
+      width: 720px;
+      height: 696px;
+      background: green url("../img/index-background-desktop@1x.jpg") no-repeat;
+    }
+  }
+
+  .preview__wrapper {
+    box-sizing: border-box;
+    padding-left: 90px;
+    width: 1220px;
+  }
+
+  .preview__title {
+    margin-top: 100px;
+  }
+
+  .preview__img {
+    top: -370px;
+    left: 50%;
+    margin-left: -25%;
   }
 }

@@ -6,3 +6,47 @@
   margin-left: -15px;
   margin-bottom: 35px;
 }
+
+.switcher__img-cat {
+  width: 100%;
+}
+
+.switcher__love-boris--vision {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .switcher {
+    padding-bottom: 50px;
+    margin-top: 140px;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;//ЧТобы двигалась только каринка котов, а не весь блок
+  }
+
+  .switcher__img-cat {
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    margin-bottom: 50px;
+  }
+
+  .switcher__love-boris--vision {
+    display: block;
+  }
+
+  .switcher__love-boris--after {
+    position: relative;
+    left: -140px;
+  }
+
+  .switcher__img-container {
+    width: 140px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1300px) {
+  .switcher {
+    margin-top: 0;
+  }
+}

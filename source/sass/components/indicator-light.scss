@@ -17,3 +17,36 @@
   background-color: #68b738;
   border-radius: 20px;
 }
+
+@media (min-width: 768px) {
+  .indicator-light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 6px;
+    background-color: #dcdcdc;
+    border: none;
+  }
+
+  .indicator-light__elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+  }
+
+  .indicator-light__elements-in {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #68b738;
+  }
+}
