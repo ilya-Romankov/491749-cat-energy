@@ -43,3 +43,9 @@
   color: #444444;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .more-item {
+    width: 324px;
+  }
+}

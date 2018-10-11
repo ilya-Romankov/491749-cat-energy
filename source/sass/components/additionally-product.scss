@@ -26,3 +26,12 @@
     background: #68b738;
   }
 }
+
+@media (min-width: 768px) {
+  .additionally-product__title {
+    width: 708px;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+  }
+}

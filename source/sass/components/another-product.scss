@@ -5,3 +5,23 @@
   width: 280px;
   list-style: none;
 }
+
+@media (min-width: 768px) {
+  .another-product {
+    width: 708px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .additionally-product__wrapper {
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .another-product {
+    width: 895px;
+  }
+}

@@ -20,3 +20,9 @@
 .another-character__characters-one--place-text-two {
   text-align: right;
 }
+
+@media (min-width: 768px) {
+  .another-character {
+    width: 50%;
+  }
+}

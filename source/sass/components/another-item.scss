@@ -13,3 +13,14 @@
   color: #222222;
   text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+  .another-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .another-item__title {
+    width: 50%;
+  }
+}

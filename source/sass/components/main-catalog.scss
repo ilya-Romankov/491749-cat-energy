@@ -12,3 +12,18 @@
   font-weight: 400;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .main-catalog__title-page {
+    width: 708px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1300px) {
+  .main-catalog__title-page {
+    width: 1220px;
+  }
+}
