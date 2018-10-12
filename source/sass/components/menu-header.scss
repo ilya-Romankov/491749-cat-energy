@@ -28,3 +28,40 @@
 .menu-header__item:active .menu-header__link {
   opacity: 0.3;
 }
+
+@media (min-width: 768px) {
+  .menu-header {
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .menu-header__item {
+    width: auto;
+    padding: 0;
+    border: none;
+  }
+
+  .menu-header__link {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1300px) {
+  .menu-header {
+    position: relative;
+    z-index: 2;
+  }
+
+  .menu-header__link {
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  .menu-header__link--color {
+    color: #111111;
+  }
+}

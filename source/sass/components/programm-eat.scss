@@ -6,3 +6,17 @@
   width: 280px;
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .programm-eat__wrapper {
+    width: 708px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  .programm-eat__wrapper {
+    width: 1220px;
+    margin: 0 auto;
+  }
+}

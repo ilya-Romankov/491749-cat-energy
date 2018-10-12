@@ -17,3 +17,9 @@
 .switchers-element__indicator {
   align-self: center;
 }
+
+@media (min-width: 768px) {
+  .switchers-element {
+    width: 450px;
+  }
+}

@@ -11,3 +11,18 @@
   line-height: 60px;
   font-weight: 400;
 }
+
+@media (min-width: 768px) {
+  .main-form__title {
+    width: 708px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1300px) {
+  .main-form__title {
+    width: 1220px;
+  }
+}

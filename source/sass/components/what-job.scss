@@ -15,3 +15,22 @@
   line-height: 60px;
   color: #111111;
 }
+
+@media (min-width: 768px) {
+  .what-job__wrapper {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    width: 708px;
+  }
+
+  .what-job__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .what-job__wrapper {
+    width: 1220px;
+  }
+}

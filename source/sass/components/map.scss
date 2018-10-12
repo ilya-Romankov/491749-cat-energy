@@ -6,3 +6,15 @@
   display: block;
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .map__img {
+    width: 708px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .map__img {
+    width: 1220px;
+  }
+}

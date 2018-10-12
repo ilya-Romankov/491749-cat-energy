@@ -10,3 +10,24 @@
   margin: 0 auto;
   width: 280px;
 }
+
+@media (min-width: 768px) {
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .list-item__element-wrapper {
+    align-items: center;
+    flex-direction: column;
+    width: 249px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .list-item__element-wrapper {
+    width: 169px;
+    justify-content: flex-start;
+  }
+}

@@ -1,6 +1,17 @@
 .preview {
   position: relative;
   width: 100%;
+}
+
+.preview__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: 22px;
+  z-index: 1;
+  border-top: 1px solid transparent;
 
   &::before {
     content: "";
@@ -13,16 +24,6 @@
     margin-left: -160px;
     background: green url("../img/index-background-mobile@1x.jpg") no-repeat;
   }
-}
-
-.preview__wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 280px;
-  margin: 0 auto;
-  margin-bottom: 22px;
-  z-index: 1;
-  border-top: 1px solid transparent;
 }
 
 .preview__title {
@@ -52,4 +53,84 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 3px;
+}
+
+@media (min-width: 768px) {
+  .preview__wrapper {
+    box-sizing: border-box;
+    width: 708px;
+    padding-left: 90px;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .preview__title {
+    margin: 0;
+    margin-bottom: 33px;
+    width: 420px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #111111;
+  }
+
+  .preview__discription {
+    margin: 0;
+    margin-bottom: 48px;
+    width: 420px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    color: #111111;
+  }
+
+  .preview__img {
+    position: relative;
+    top: -70px;
+    z-index: -1;
+    order: 4;
+    width: auto;
+    height: 609px;
+  }
+
+  .preview__link {
+    width: 245px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .preview {
+    padding-bottom: 300px;
+  }
+
+  .preview__wrapper {
+    box-sizing: border-box;
+    padding-left: 90px;
+    width: 1220px;
+
+    &::before {
+      top: -220px;
+      left: auto;
+      right: 0;
+      z-index: -1;
+      display: block;
+      width: 55%;
+      height: 696px;
+      background: green url("../img/index-background-desktop@1x.jpg") no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .preview__title {
+    margin-top: 100px;
+  }
+
+  .preview__img {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    margin-left: -25%;
+  }
 }
