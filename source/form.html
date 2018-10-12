@@ -11,14 +11,14 @@
     <header class="header-all-page">
       <div class="header-all-page__wrapper">
         <div class="header-all-page__wrapper-logo-switch">
-          <a class="header-all-page__logo logo-main">
+          <a class="header-all-page__logo logo-main" href="index.html">
             <img class="logo-main__cat-logo image-cat-logo" src="img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
           </a>
           <button class="header-all-page__switcher header-all-page__switcher--close" type="button" name="open-closs"></button>
         </div>
         <nav class="main-navigation">
           <ul class="menu-header">
-            <li class="menu-header__item"><a class="menu-header__link menu-header__link--color" href="index.htmд">Главная</a></li>
+            <li class="menu-header__item"><a class="menu-header__link menu-header__link--color" href="index.html">Главная</a></li>
             <li class="menu-header__item"><a class="menu-header__link menu-header__link--color" href="catalog.html">Каталог продукции</a></li>
             <li class="menu-header__item"><a class="menu-header__link menu-header__link--color">Подбор программы</a></li>
           </ul>
@@ -30,50 +30,54 @@
       <h1 class="main-form__title title-page">Подбор программы</h1>
       <section class="filter-programm">
         <h2 class="visiually-hidden">Выбирете значения форм</h2>
-        <p class="filter-programm__instruction">Заполните анкету и мы подберем программу питания для вашего кота</p>
+        <div class="filter-programm__wrapper-title">
+          <p class="filter-programm__instruction">Заполните анкету и мы подберем программу питания для вашего кота</p>
+        </div>
         <form class="filter-programm__form choose-form" action="https://echo.htmlacademy.ru" method="post" >
-          <fieldset class="choose-form__shared-data shared-data shared-data--mar1">
-            <div class="shared-data__form-wrap">
-              <p class="shared-data__element-form element-form">
-                <label class="element-form__label element-form__label--first-data" for="name-cat">Имя:*</label>
-                <input class="element-form__input element-form__input--collect-text" type="text" name="name-cat" id="name-cat" placeholder="Барсик">
-              </p>
-              <p class="shared-data__element-form element-form">
-                <label class="element-form__label element-form__label--first-data" for="fat-cat">Вес (кг):*</label>
-                <input class="element-form__input element-form__input--collect-text" type="text" name="fat-cat" id="fat-cat" placeholder="7">
-              </p>
-              <p class="shared-data__element-form element-form">
-                <label class="element-form__label element-form__label--first-data" for="year-cat">Возраст (лет):</label>
-                <input class="element-form__input element-form__input--collect-text" type="text" name="year-cat" id="year-cat" placeholder="7">
-              </p>
-            </div>
-          </fieldset>
-          <fieldset class="choose-form__shared-data shared-data">
-            <div class="shared-data__wrapper shared-data__wrapper--radio-programm">
-              <div class="shared-data__form-wrap">
-                <p class="shared-data__element-form element-form element-form--mode-m">
-                  <label class="element-form__label element-form__label--mode-label" for="slim-cat">Похудение</label>
-                  <input class="element-form__input visiually-hidden" type="radio" name="program" id="slim-cat" checked>
+          <div class="choose-form__wrapper-dek">
+            <fieldset class="choose-form__shared-data shared-data shared-data--mar1 shared-data--dekstop-width">
+              <div class="shared-data__form-wrap shared-data__form-wrap--dekstop-width">
+                <p class="shared-data__element-form element-form">
+                  <label class="element-form__label element-form__label--first-data" for="name-cat">Имя:*</label>
+                  <input class="element-form__input element-form__input--collect-text" type="text" name="name-cat" id="name-cat" placeholder="Барсик">
                 </p>
-                <p class="shared-data__element-form element-form element-form--mode-m">
-                  <label class="element-form__label element-form__label--mode-label" for="mas-cat">Набор массы</label>
-                  <input class="element-form__input visiually-hidden" type="radio" name="program" id="mas-cat">
+                <p class="shared-data__element-form element-form">
+                  <label class="element-form__label element-form__label--first-data" for="fat-cat">Вес (кг):*</label>
+                  <input class="element-form__input element-form__input--collect-text" type="text" name="fat-cat" id="fat-cat" placeholder="7">
                 </p>
-                <p class="shared-data__element-form element-form element-form--mode-m">
-                  <label class="element-form__label element-form__label--mode-label" for="dont-cat">Не знаю (нужен ваш совет)</label>
-                  <input class="element-form__input visiually-hidden" type="radio" name="program" id="dont-cat">
+                <p class="shared-data__element-form element-form">
+                  <label class="element-form__label element-form__label--first-data" for="year-cat">Возраст (лет):</label>
+                  <input class="element-form__input element-form__input--collect-text" type="text" name="year-cat" id="year-cat" placeholder="7">
                 </p>
               </div>
-            </div>
-          </fieldset>
+            </fieldset>
+            <fieldset class="choose-form__shared-data shared-data shared-data--dekstop-width">
+              <div class="shared-data__wrapper shared-data__wrapper--radio-programm shared-data__form-wrap--dekstop-width">
+                <div class="shared-data__form-wrap shared-data__form-wrap--radio">
+                  <p class="shared-data__element-form element-form element-form--mode-m">
+                    <label class="element-form__label element-form__label--mode-label" for="slim-cat">Похудение</label>
+                    <input class="element-form__input visiually-hidden" type="radio" name="program" id="slim-cat" checked>
+                  </p>
+                  <p class="shared-data__element-form element-form element-form--mode-m">
+                    <label class="element-form__label element-form__label--mode-label" for="mas-cat">Набор массы</label>
+                    <input class="element-form__input visiually-hidden" type="radio" name="program" id="mas-cat">
+                  </p>
+                  <p class="shared-data__element-form element-form element-form--mode-m">
+                    <label class="element-form__label element-form__label--mode-label" for="dont-cat">Не знаю (нужен ваш совет)</label>
+                    <input class="element-form__input visiually-hidden" type="radio" name="program" id="dont-cat">
+                  </p>
+                </div>
+              </div>
+            </fieldset>
+          </div>
           <fieldset class="choose-form__shared-data shared-data">
             <legend class="shared-data__title">Контактные данные (владельца кота)</legend>
             <div class="shared-data__form-wrap shared-data__form-wrap--contact">
-              <p class="shared-data__element-form element-form">
+              <p class="shared-data__element-form element-form element-form--contact">
                 <label class="element-form__label element-form__label--contact-label" for="email-user">E-mail:*</label>
                 <input class="element-form__input element-form__input--contact-input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com">
               </p>
-              <p class="shared-data__element-form element-form">
+              <p class="shared-data__element-form element-form element-form--contact">
                 <label class="element-form__label element-form__label--contact-label" for="phone-user">Телефон:*</label>
                 <input class="element-form__input element-form__input--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90">
               </p>
@@ -108,9 +112,9 @@
           </fieldset>
           <div class="choose-form__btn-wrap">
             <button class="btn" type="submit" name="done">Отправить заявку</button>
+            <span class="explanation">* — Обязательные поля</span>
           </div>
         </form>
-        <span class="explanation">* — Обязательные поля</span>
       </section>
     </main>
 
@@ -127,7 +131,7 @@
       <section class="footer-all-page__link-information link-information">
         <div class="footer-all-page__wrapper">
           <h2 class="visiually-hidden">Ссылки</h2>
-          <div class="footer-all-page__wrapper">
+          <div class="footer-all-page__wrapper footer-all-page__wrapper--low-footer">
             <a class="footer-all-page__logo logo-main">
               <img class="footer-all-page__cat-logo image-write-logo" src="img/logo-footer.svg" alt="CatEnergy" width="124" height="24">
             </a>

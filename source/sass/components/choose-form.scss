@@ -1,6 +1,30 @@
 .choose-form__btn-wrap {
   margin: 0 auto;
   margin-top: 19px;
-  margin-bottom: 18px;
   width: 280px;
+}
+
+@media (min-width: 768px) {
+  .choose-form__btn-wrap {
+    width: 522px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1300px) {
+  .choose-form__wrapper-dek {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .choose-form__btn-wrap {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-right: 400px;
+    width: 1220px;
+  }
 }

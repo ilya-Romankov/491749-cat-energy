@@ -49,3 +49,14 @@
     width: 324px;
   }
 }
+
+@media (min-width: 1300px) {
+  .more-item {
+    width: 100%;
+  }
+
+  .more-item__wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+}

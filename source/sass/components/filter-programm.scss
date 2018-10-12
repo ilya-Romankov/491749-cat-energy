@@ -13,3 +13,28 @@
   text-transform: uppercase;
   color: #111111;
 }
+
+@media (min-width: 768px) {
+  .filter-programm__wrapper-title {
+    margin: 0 auto;
+    width: 708px;
+  }
+
+  .filter-programm__instruction {
+    margin: 0;
+    margin-left: 35px;
+    width: 330px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .filter-programm__wrapper-title {
+    width: 1220px;
+  }
+
+  .filter-programm__instruction {
+    margin-left: 0;
+  }
+}

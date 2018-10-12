@@ -65,7 +65,7 @@
 
 .element-form__input--contact-input {
   flex-grow: 1;
-  padding: 13px 20px 13px 15px;
+  padding: 13px 50px 13px 15px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -105,5 +105,16 @@
     width: 30px;
     height: 30px;
     background-color: red;
+  }
+}
+
+@media (min-width: 768px) {
+  .element-form__label {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .element-form--more-m {
+    width: 200px;
   }
 }
