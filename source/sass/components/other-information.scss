@@ -27,8 +27,14 @@
 @media (min-width: 768px) {
   .other-information {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 25px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 625px;
+  }
+
+  .other-information__city {
+    display: block;
+    padding-top: 17px;
   }
 
   .other-information__elements {
@@ -41,6 +47,7 @@
     width: 160px;
     font-size: 16px;
     line-height: 20px;
+    text-align: right;
   }
 }
 

@@ -33,18 +33,22 @@
 @media (min-width: 768px) {
   .example {
     background-color: #ffffff;
+    margin-bottom: 27px;
   }
 
   .example__wrapper {
+    padding-top: 43px;
     width: 708px;
   }
 
   .example__title {
+    margin-bottom: 65px;
     font-size: 60px;
     line-height: 60px;
   }
 
   .example__discription {
+    margin-bottom: 21px;
     font-size: 16px;
     line-height: 24px;
   }

@@ -64,7 +64,18 @@
   }
 
   .view-result__item {
-    width: 162px;
+    padding: 17px 0px 17px 0;
+    width: 161px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .view-result__title {
+    top: 65px;
+    width: 130px;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: white;
   }
 
   .view-result__item--place {
@@ -76,7 +87,7 @@
     margin-left: auto;
     width: 174px;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 29px;
     text-align: right;
   }
 }

@@ -33,13 +33,17 @@
   .discription-process {
     display: flex;
     justify-content: space-between;
+    align-content: space-between;
     flex-wrap: wrap;
+    min-height: 520px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .discription-process__item {
-    padding-top: 90px;
+    padding-top: 110px;
     padding-left: 0;
-    width: 250px;
+    width: 325px;
 
     &::before {
       width: 80px;
@@ -48,6 +52,8 @@
   }
 
   .discription-process__link {
+    display: block;
+    width: 250px;
     font-size: 16px;
     line-height: 24px;
   }
