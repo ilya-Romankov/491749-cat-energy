@@ -17,15 +17,20 @@
 }
 
 @media (min-width: 768px) {
+  .what-job {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #e6e6e6;
+  }
   .what-job__wrapper {
     margin: 0 auto;
-    margin-bottom: 45px;
+    margin-bottom: 0;
     width: 708px;
   }
 
   .what-job__title {
     font-size: 60px;
     line-height: 60px;
+    margin-bottom: 74px;
   }
 }
 

@@ -17,17 +17,24 @@
 
 @media (min-width: 768px) {
   .switcher {
-    padding-bottom: 50px;
-    margin-top: 140px;
+    position: relative;
+    padding-top: 365px;
+    padding-bottom: 70px;
+    margin-top: 225px;
     background-color: #f2f2f2;
     border: 1px solid transparent;//ЧТобы двигалась только каринка котов, а не весь блок
   }
 
   .switcher__img-cat {
+    position: absolute;
+    top: -167px;
     display: flex;
     justify-content: center;
-    margin-top: -70px;
-    margin-bottom: 50px;
+  }
+
+  .switcher__love-boris {
+    width: 708px;
+    height: 514px;
   }
 
   .switcher__love-boris--vision {
@@ -36,11 +43,11 @@
 
   .switcher__love-boris--after {
     position: relative;
-    left: -140px;
+    left: -336px;
   }
 
   .switcher__img-container {
-    width: 140px;
+    width: 332px;
     overflow: hidden;
   }
 }

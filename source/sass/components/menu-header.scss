@@ -29,17 +29,28 @@
   opacity: 0.3;
 }
 
+.menu-header__item--active:hover .menu-header__link,
+.menu-header__item--active:active .menu-header__link  {
+  opacity: 1;
+}
+
 @media (min-width: 768px) {
   .menu-header {
     justify-content: space-between;
     flex-direction: row;
     margin-top: 0;
+    width: 438px;
   }
 
   .menu-header__item {
     width: auto;
     padding: 0;
+    padding-bottom: 6px;
     border: none;
+  }
+
+  .menu-header__item--active {
+    border-bottom: 2px solid #68b738;
   }
 
   .menu-header__link {

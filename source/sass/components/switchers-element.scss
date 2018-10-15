@@ -19,7 +19,16 @@
 }
 
 @media (min-width: 768px) {
+  .switchers-element__label {
+    display: block;
+    font-size: 20px;
+    padding-left: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px dotted #bebebe;
+  }
+
   .switchers-element {
-    width: 450px;
+    padding-left: 0;
+    width: 570px;
   }
 }
