@@ -49,6 +49,40 @@
       width: 80px;
       height: 80px;
     }
+
+    &::after {
+      position: absolute;
+      top: -40px;
+      left: 115px;
+      z-index: -1;
+      font-size: 281px;
+      line-height: 281px;
+      color: #f2f2f2;
+    }
+  }
+
+  .discription-process__item--sheet {
+    &::after {
+      content: "1";
+    }
+  }
+
+  .discription-process__item--bottle {
+    &::after {
+      content: "2";
+    }
+  }
+
+  .discription-process__item--canteen {
+    &::after {
+      content: "3";
+    }
+  }
+
+  .discription-process__item--clock {
+    &::after {
+      content: "4";
+    }
   }
 
   .discription-process__link {

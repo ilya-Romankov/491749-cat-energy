@@ -72,10 +72,13 @@
 
   .view-result__title {
     top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 130px;
     font-size: 14px;
     line-height: 14px;
     background-color: white;
+    text-transform: lowercase;
   }
 
   .view-result__item--place {

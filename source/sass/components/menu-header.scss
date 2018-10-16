@@ -64,6 +64,11 @@
   .menu-header {
     position: relative;
     z-index: 2;
+    width: 477px;
+  }
+
+  .menu-header__item--active-desktop {
+    border-bottom: 2px solid #ffffff;
   }
 
   .menu-header__link {
