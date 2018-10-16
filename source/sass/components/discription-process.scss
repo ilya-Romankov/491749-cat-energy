@@ -94,6 +94,11 @@
 }
 
 @media (min-width: 1300px) {
+
+    .discription-process {
+      min-height: 0;
+    }
+
   .discription-process__item {
     width: 250px;
   }

@@ -35,6 +35,12 @@
 }
 
 @media (min-width: 1300px) {
+
+    .what-job {
+      border-bottom: none;
+      padding-bottom: 57px;
+    }
+
   .what-job__wrapper {
     width: 1220px;
   }

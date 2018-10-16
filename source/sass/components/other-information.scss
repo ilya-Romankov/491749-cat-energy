@@ -53,10 +53,15 @@
 
 @media (min-width: 1300px) {
   .other-information {
-    top: 120px;
-    left: 100px;
     position: absolute;
-    width: 570px;
+    top: 90px;
+    left: 0px;
+    width: 410px;
+    padding: 70px 90px 60px 76px;
     background-color: #ffffff;
+  }
+
+  .other-information__place {
+    text-align: left;
   }
 }

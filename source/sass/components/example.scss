@@ -70,22 +70,29 @@
 @media (min-width: 1300px) {
   .example {
     margin-bottom: 0;
+    &::after {
+      bottom: 0;
+      height: 462px;
+      background: linear-gradient(to right, #f2f2f2 0%, #f2f2f2 72.5%, #eaeaea 72.5%, #eaeaea 100% );
+    }
   }
 
   .example__wrapp-dek {
     display: flex;
     align-content: center;
-    background-color: #f2f2f2;
+    justify-content: space-between;
   }
 
   .example__wrapper {
-    width: 1200px;
+    width: 1220px;
     margin-bottom: 0;
     padding-bottom: 0;
   }
 
   .example__discription {
     display: block;
-    width: 340px;
+    width: 435px;
+    margin-top: 82px;
+    margin-bottom: 0;
   }
 }

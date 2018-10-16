@@ -53,6 +53,16 @@
 
 @media (min-width: 1300px) {
   .switcher {
+    box-sizing: border-box;
+    width: 610px;
+    padding-top: 375px;
+    padding-left: 38px;
     margin-top: 0;
+  }
+
+  .switcher__img-cat {
+    top: -180px;
+    left: -55px;
+    width: 700px;
   }
 }

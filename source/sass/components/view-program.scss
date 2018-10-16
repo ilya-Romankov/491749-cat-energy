@@ -159,5 +159,46 @@
 @media (min-width: 1300px) {
   .view-program {
     width: 570px;
+    padding-bottom: 60px;
+    &::before {
+      top: 45px;
+      left: 50px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .view-program--cat-slim {
+    &::after {
+      top: 40px;
+      left: 65px;
+      width: 70px;
+      height: 97px;
+      background: url("../../img/icon-cat-slim.svg") no-repeat 100% 100%;
+    }
+  }
+
+  .view-program--cat-pro {
+    &::after {
+      top: 140px;
+      top: 70px;
+      left: 35px;
+      width: 134px;
+      height: 56px;
+      background: url("../../img/icon-cat-pro.svg") no-repeat 100% 100%;
+    }
+  }
+
+  .view-program__title {
+    margin-left: 215px;
+    margin-bottom: 70px;
+  }
+
+  .view-program__discription {
+    width: 470px;
+  }
+
+  .view-program__link {
+    margin-top: 35px;
   }
 }
