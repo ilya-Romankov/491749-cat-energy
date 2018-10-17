@@ -16,11 +16,25 @@
 
 @media (min-width: 768px) {
   .another-item {
+    padding-top: 0;
+    padding-bottom: 25px;
+    margin-bottom: 24px;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  .another-item__wrapper {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    width: 631px;
   }
 
   .another-item__title {
+    font-size: 20px;
+    line-height: 20px;
     width: 50%;
   }
 }

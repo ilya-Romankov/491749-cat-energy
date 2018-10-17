@@ -96,6 +96,7 @@
     padding-top: 78px;
     padding-bottom: 65px;
     margin-bottom: 25px;
+
     &::before {
       top: 95px;
       left: auto;
@@ -160,6 +161,7 @@
   .view-program {
     width: 570px;
     padding-bottom: 60px;
+
     &::before {
       top: 45px;
       left: 50px;
@@ -180,7 +182,6 @@
 
   .view-program--cat-pro {
     &::after {
-      top: 140px;
       top: 70px;
       left: 35px;
       width: 134px;

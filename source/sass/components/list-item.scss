@@ -15,10 +15,14 @@
   .list-item {
     display: flex;
     justify-content: space-between;
+    align-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 60px;
+    min-height: 2151px;
   }
 
   .list-item__element-wrapper {
+    position: relative;
     align-items: center;
     flex-direction: column;
     width: 249px;

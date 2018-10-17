@@ -23,6 +23,27 @@
 
 @media (min-width: 768px) {
   .another-character {
-    width: 50%;
+    margin-bottom: 0;
+    width: 220px;//Это дефолтная ширина задана специально для карточек, которые могу добавится. Так не сломается вёрстка
+  }
+
+  .another-characte--sugar-w {
+    width: 224px;
+  }
+
+  .another-characte--water-w {
+    width: 158px;
+  }
+
+  .another-characte--milk-w {
+    width: 141px;
+  }
+
+  .another-characte--vitamin-w {
+    width: 216px;
+  }
+
+  .another-character__characters-one {
+    font-size: 16px;
   }
 }

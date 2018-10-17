@@ -21,6 +21,7 @@
     padding-bottom: 80px;
     border-bottom: 1px solid #e6e6e6;
   }
+
   .what-job__wrapper {
     margin: 0 auto;
     margin-bottom: 0;
@@ -35,11 +36,10 @@
 }
 
 @media (min-width: 1300px) {
-
-    .what-job {
-      border-bottom: none;
-      padding-bottom: 57px;
-    }
+  .what-job {
+    border-bottom: none;
+    padding-bottom: 57px;
+  }
 
   .what-job__wrapper {
     width: 1220px;

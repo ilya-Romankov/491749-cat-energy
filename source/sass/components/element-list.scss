@@ -30,15 +30,42 @@
 
 @media (min-width: 768px) {
   .element-list {
-    margin-bottom: 20px;
+    padding-bottom: 38px;
     width: 324px;
     border: none;
     background-color: #f2f2f2;
   }
 
+  .element-list--no-product {
+    background-color: #ffffff;
+    border: 1px solid #cdcdcd;
+    padding-bottom: 0;
+  }
+
+  .element-list__characters {
+    margin-bottom: 22px;
+  }
+
   .element-list__link-image {
-    display: block;
-    width: 195px;
+    position: absolute;
+    top: -100px;
+  }
+
+  .element-list__wrapper {
+    padding-top: 163px;
+    width: 248px;
+  }
+
+  .element-list__title {
+    margin: 0 auto;
+    margin-bottom: 17px;
+    width: 134px;
+    text-align: center;
+  }
+
+  .element-list__link {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 

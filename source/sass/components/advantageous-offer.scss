@@ -35,16 +35,17 @@
 @media (min-width: 768px) {
   .advantageous-offer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin-bottom: 142px;
     width: 708px;
     background: url("../img/gift-photo-tablet@1x.jpg") no-repeat 100% 100%;
 
     &::before {
       content: "";
       position: absolute;
-      left: 100px;
-      top: 90px;
+      left: 115px;
+      top: 85px;
       display: block;
       margin-left: -27px;
       width: 55px;
@@ -54,13 +55,17 @@
   }
 
   .advantageous-offer__link {
+    position: relative;
+    top: -25px;
+    width: 170px;
     margin: 0;
+    margin-right: 115px;
+    text-align: left;
   }
 }
 
 @media (min-width: 1300px) {
   .advantageous-offer {
-    position: relative;
     margin: 0 auto;
     margin-bottom: 62px;
     padding-top: 124px;
