@@ -14,22 +14,13 @@
     border: 1px solid #cdcdcd;
     border-bottom: none;
   }
-
-  .additionally-product__link {
-    margin-top: 17px;
-  }
 }
 
 @media (min-width: 1300px) {
-  .additionally-product__wrapper {
-    width: 1220px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
   .another-product {
-    width: 895px
+    padding-top: 0;
+    margin-left: 0;
+    width: 895px;
+    border: none;
   }
 }

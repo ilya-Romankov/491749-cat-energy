@@ -109,12 +109,14 @@
 @media (min-width: 1300px) {
   .preview {
     &::before {
-      top: -220px;
-      left: 60%;
+      top: -110px;
+      left: auto;
+      right: 0;
       z-index: -1;
       display: block;
+      margin-left: 0;
       width: 50%;
-      height: 805px;
+      height: 696px;
       background: url("../img/index-background-desktop@1x.jpg") no-repeat right top;
       background-size: cover;
     }
@@ -138,7 +140,6 @@
   .preview__img {
     position: absolute;
     top: 0;
-    left: 60%;
-    margin-left: -25%;
+    left: 35%;
   }
 }

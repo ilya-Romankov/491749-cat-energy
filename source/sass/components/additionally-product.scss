@@ -35,4 +35,27 @@
     line-height: 36px;
     text-align: left;
   }
+
+  .additionally-product__link {
+    margin-top: 17px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .additionally-product__wrapper {
+    width: 1220px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .additionally-product__title {
+    width: 1220px;
+    margin-bottom: 78px;
+  }
+
+  .additionally-product__link {
+    width: 245px;
+  }
 }
