@@ -6,10 +6,18 @@
 
 @media (min-width: 768px) {
   .choose-form__btn-wrap {
-    width: 522px;
+    width: 630px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 14px;
+    margin-bottom: 138px;
+  }
+
+  .choose-form__btn-go {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 283px;
   }
 }
 

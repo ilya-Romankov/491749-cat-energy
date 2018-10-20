@@ -83,11 +83,6 @@
   opacity: 1;
 }
 
-.shared-data__form-wrap--contact {
-  margin-top: 33px;
-  margin-bottom: 29px;
-}
-
 .element-form--more-m {
   margin-bottom: 24px;
   padding-left: 46px;
@@ -109,6 +104,10 @@
 }
 
 @media (min-width: 768px) {
+  .element-form {
+    margin-bottom: 19px;
+  }
+
   .element-form__label {
     font-size: 20px;
     line-height: 20px;
@@ -116,5 +115,42 @@
 
   .element-form--more-m {
     width: 200px;
+    padding-left: 30px;
+    margin-bottom: 52px;
+  }
+
+  .element-form__input--collect-text {
+    padding: 15px 15px 17px 20px;
+  }
+
+  .element-form__input--collect-text::placeholder {
+    font-size: 19px;
+  }
+
+  .element-form__label--mode-label {
+    padding-left: 40px;
+  }
+
+  .element-form--mode-m {
+    padding-bottom: 15px;
+  }
+
+  .element-form--contact {
+    margin-bottom: 21px
+  }
+
+  .element-form__label--contact-label-mail {
+    padding-right: 20px;
+  }
+
+  .element-form__input--contact-input {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+  }
+
+  .element-form__input--contact-input::placeholder {
+    font-size: 20px;
+    line-height: 20px;
   }
 }

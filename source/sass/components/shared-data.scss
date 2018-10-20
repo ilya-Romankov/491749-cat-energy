@@ -11,6 +11,11 @@
   width: 280px;
 }
 
+.shared-data__form-wrap--contact {
+  margin-top: 33px;
+  margin-bottom: 29px;
+}
+
 .shared-data__wrapper--radio-programm {
   box-sizing: border-box;
   padding-top: 25px;
@@ -78,7 +83,13 @@
     width: 630px;
   }
 
+  .shared-data--mar1 {
+    margin-bottom: 55px;
+  }
+
   .shared-data__wrapper--radio-programm {
+    padding-top: 32px;
+    margin-bottom: 75px;
     width: 630px;
   }
 
@@ -94,14 +105,43 @@
     text-align: left;
   }
 
+  .shared-data__form-wrap--contact {
+    padding-top: 42px;
+    padding-left: 3px;
+    margin-bottom: 65px;
+  }
+
+  .shared-data__form-wrap--comment {
+    margin-top: 75px;
+    margin-bottom: 65px;
+  }
+
+  .shared-data__comment {
+    padding-top: 16px;
+    padding-left: 19px;
+  }
+
+  .shared-data__comment::placeholder {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
   .shared-data__comment {
     width: 631px;
+    min-height: 175px;
   }
 
   .shared-data__form-wrap--more-choose {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 575px;
+    margin-top: 67px;
+  }
+
+  .shared-data__element-form--start-data {
+    padding-left: 3px;
   }
 }
 
