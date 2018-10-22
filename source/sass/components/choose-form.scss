@@ -23,16 +23,22 @@
 
 @media (min-width: 1300px) {
   .choose-form__wrapper-dek {
-    margin: 0 auto;
-    width: 1200px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 49px;
+    width: 1220px;
   }
 
   .choose-form__btn-wrap {
     box-sizing: border-box;
     margin: 0 auto;
-    padding-right: 400px;
+    margin-bottom: 86px;
+    padding-right: 300px;
     width: 1220px;
+  }
+
+  .choose-form__btn-go {
+    width: 572px;
   }
 }

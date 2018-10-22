@@ -148,14 +148,28 @@
     width: 570px;
   }
 
+  .shared-data--mar1 {
+    margin-bottom: 0;
+  }
+
   .shared-data__form-wrap--dekstop-width {
     width: 100%;
+  }
+
+  .shared-data__wrapper--radio-programm {
+    margin-bottom: 0;
+  }
+
+  .shared-data__form-wrap--radio {
+    box-sizing: border-box;
+    padding-left: 28px;
   }
 
   .shared-data__form-wrap--contact {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 1220px;
+    margin-bottom: 47px;
   }
 
   .element-form--contact {
@@ -175,6 +189,7 @@
   }
 
   .shared-data__form-wrap--more-choose {
-    width: 1220px;
+    width: 1160px;
+    margin-bottom: 20px;
   }
 }
