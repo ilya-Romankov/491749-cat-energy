@@ -105,7 +105,7 @@
 
 @media (min-width: 768px) {
   .element-form {
-    margin-bottom: 19px;
+    margin-bottom: 22px;
   }
 
   .element-form__label {
@@ -120,11 +120,12 @@
   }
 
   .element-form__input--collect-text {
-    padding: 15px 15px 17px 20px;
+    padding: 9px 15px 9px 20px;
+    font-size: 20px;
   }
 
   .element-form__input--collect-text::placeholder {
-    font-size: 19px;
+    font-size: 20px;
   }
 
   .element-form__label--mode-label {
@@ -132,11 +133,11 @@
   }
 
   .element-form--mode-m {
-    padding-bottom: 15px;
+    padding-bottom: 12px;
   }
 
   .element-form--contact {
-    margin-bottom: 21px
+    margin-bottom: 21px;
   }
 
   .element-form__label--contact-label-mail {
@@ -144,9 +145,10 @@
   }
 
   .element-form__input--contact-input {
-    padding-top: 15px;
-    padding-bottom: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 20px;
+    font-size: 20px;
   }
 
   .element-form__input--contact-input::placeholder {

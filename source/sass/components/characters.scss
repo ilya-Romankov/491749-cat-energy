@@ -17,20 +17,17 @@
 
 @media (min-width: 768px) {
   .characters {
-      border-spacing: 0 9px;
-  }
-
-  .characters__one-characteristic {
-    font-size: 16px;
-    line-height: 16px;
-  }
-
-  .characters__row-character {
-    border-collapse: collapse;
+    border-spacing: 0 9px;
   }
 
   .characters__one-characteristic {
     padding-bottom: 7px;
+    font-size: 16px;
+    line-height: 16px;
     border-bottom: 1px solid #cdcdcd;
+  }
+
+  .characters__row-character {
+    border-collapse: collapse;
   }
 }

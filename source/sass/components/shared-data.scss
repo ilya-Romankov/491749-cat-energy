@@ -84,7 +84,7 @@
   }
 
   .shared-data--mar1 {
-    margin-bottom: 55px;
+    margin-bottom: 52px;
   }
 
   .shared-data__wrapper--radio-programm {
@@ -117,18 +117,16 @@
   }
 
   .shared-data__comment {
+    width: 631px;
+    min-height: 175px;
     padding-top: 16px;
     padding-left: 19px;
+    font-size: 20px;
   }
 
   .shared-data__comment::placeholder {
     font-size: 20px;
     line-height: 20px;
-  }
-
-  .shared-data__comment {
-    width: 631px;
-    min-height: 175px;
   }
 
   .shared-data__form-wrap--more-choose {
