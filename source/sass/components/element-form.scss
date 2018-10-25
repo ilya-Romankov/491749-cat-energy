@@ -120,12 +120,16 @@
   }
 
   .element-form__input--collect-text {
+    display: block;
     padding: 9px 15px 9px 20px;
+    min-height: 30px;
     font-size: 20px;
+    line-height: 20px;
   }
 
   .element-form__input--collect-text::placeholder {
     font-size: 20px;
+    line-height: 30px;
   }
 
   .element-form__label--mode-label {
@@ -148,12 +152,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
+    min-height: 30px;
     font-size: 20px;
   }
 
   .element-form__input--contact-input::placeholder {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 30px;
   }
 }
 

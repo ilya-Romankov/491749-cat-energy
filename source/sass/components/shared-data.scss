@@ -79,6 +79,14 @@
 }
 
 @media (min-width: 768px) {
+  .shared-data__title {
+    margin-top: 0px;
+  }
+
+  .shared-data--pad {
+    padding-bottom: 75px;
+  }
+
   .shared-data__form-wrap {
     width: 630px;
   }
@@ -89,7 +97,7 @@
 
   .shared-data__wrapper--radio-programm {
     padding-top: 32px;
-    margin-bottom: 75px;
+    margin-bottom: 0;
     width: 630px;
   }
 
@@ -152,7 +160,15 @@
     margin-bottom: 0;
   }
 
+  .shared-data--pad {
+    padding-bottom: 0;
+  }
+
   .shared-data__form-wrap--dekstop-width {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     width: 100%;
   }
 
