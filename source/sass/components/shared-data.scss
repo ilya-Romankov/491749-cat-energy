@@ -4,6 +4,7 @@
   margin-right: 0;
   padding: 0;
   border: none;
+  overflow: hidden;
 }
 
 .shared-data__form-wrap {
@@ -38,15 +39,25 @@
   font-weight: 400;
   color: #111111;
 
-  &::before {
+  &::after {
     content: "";
-    right: -10px;
-    top: 13px;
     position: absolute;
-    width: 99px;
+    z-index: -1;
+    left: 20px;
+    top: 14px;
+    width: 500px;
+    margin-right: -100%;
     height: 3px;
-    background-color: #68b738;
+    background: #68b738;
   }
+}
+
+.shared-data__title-sub {
+  display: inline-block;
+  width: auto;
+  padding-right: 20px;
+  max-width: 185px;
+  background-color: #ffffff;
 }
 
 .shared-data__form-wrap--comment {
@@ -78,9 +89,6 @@
 }
 
 @media (min-width: 768px) {
-  .shared-data__title {
-    margin-top: 0px;
-  }
 
   .shared-data--pad {
     padding-bottom: 75px;
@@ -106,10 +114,44 @@
   }
 
   .shared-data__title {
+    margin-top: 0;
     width: 630px;
     font-size: 36px;
     line-height: 36px;
     text-align: left;
+
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 172px;
+      top: 22px;
+      width: 100%;
+      margin-right: -100%;
+      height: 3px;
+      background: #68b738;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: -40px;
+      top: 22px;
+      display: block;
+      width: 100%;
+      margin-left: -100%;
+      height: 3px;
+      background: #68b738;
+    }
+  }
+
+  .shared-data__title-sub {
+    display: inline-block;
+    padding-right: 40px;
+    width: auto;
+    max-width: 550px;
+    background-color: #ffffff;
   }
 
   .shared-data__form-wrap--contact {
@@ -180,6 +222,7 @@
     padding-left: 28px;
   }
 
+
   .shared-data__form-wrap--contact {
     display: flex;
     justify-content: space-between;
@@ -193,6 +236,31 @@
 
   .shared-data__title {
     width: 1220px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 172px;
+      top: 22px;
+      width: 100%;
+      margin-right: -100%;
+      height: 3px;
+      background: #68b738;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: -40px;
+      top: 22px;
+      display: block;
+      width: 100%;
+      margin-left: -100%;
+      height: 3px;
+      background: #68b738;
+    }
   }
 
   .shared-data__form-wrap--comment {
