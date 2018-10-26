@@ -28,6 +28,10 @@
   line-height: 20px;
 }
 
+ .element-list__btn {
+   font-size: 16px;
+ }
+
 @media (min-width: 768px) {
   .element-list {
     margin-top: 141px;
@@ -40,7 +44,7 @@
   .element-list--no-product {
     background-color: #ffffff;
     border: 1px solid #cdcdcd;
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
 
   .element-list__characters {

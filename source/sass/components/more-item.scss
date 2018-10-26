@@ -1,7 +1,7 @@
 .more-item {
   position: relative;
   padding-top: 79px;
-  padding-bottom: 20px;
+  padding-bottom: 0;
   width: 100%;
 
   &::before {
@@ -44,6 +44,9 @@
   text-align: center;
 }
 
+.more-item__link {
+  font-size: 16px;
+}
 @media (min-width: 768px) {
   .more-item {
     width: 249px;
