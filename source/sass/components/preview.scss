@@ -1,6 +1,18 @@
 .preview {
   position: relative;
   width: 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    left: 50%;
+    width: 320px;
+    height: 305px;
+    margin-left: -160px;
+    background: green url("../img/index-background-mobile@1x.jpg") no-repeat;
+  }
 }
 
 .preview__wrapper {
@@ -12,24 +24,12 @@
   margin-bottom: 22px;
   z-index: 1;
   border-top: 1px solid transparent;
-
-  &::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -1px;
-    left: 50%;
-    width: 320px;
-    height: 305px;
-    margin-left: -160px;
-    background: green url("../img/index-background-mobile@1x.jpg") no-repeat;
-  }
 }
 
 .preview__title {
   width: 255px;
   margin: 0 auto;
-  margin-top: 24px;
+  margin-top: 28px;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
@@ -56,17 +56,19 @@
 }
 
 @media (min-width: 768px) {
-  .preview__wrapper {
-    box-sizing: border-box;
-    width: 708px;
-    margin-bottom: 0px;
-    padding-left: 90px;
-    padding-top: 61px;
-    padding-bottom: 515px;
-
+  .preview {
     &::before {
       display: none;
     }
+  }
+
+  .preview__wrapper {
+    box-sizing: border-box;
+    width: 708px;
+    margin-bottom: 0;
+    padding-left: 90px;
+    padding-top: 61px;
+    padding-bottom: 515px;
   }
 
   .preview__title {
@@ -106,35 +108,38 @@
 
 @media (min-width: 1300px) {
   .preview {
-    padding-bottom: 300px;
-  }
-
-  .preview__wrapper {
-    box-sizing: border-box;
-    padding-left: 90px;
-    width: 1220px;
-
     &::before {
-      top: -220px;
+      top: -110px;
       left: auto;
       right: 0;
       z-index: -1;
       display: block;
-      width: 55%;
+      margin-left: 0;
+      width: 50%;
       height: 696px;
-      background: green url("../img/index-background-desktop@1x.jpg") no-repeat;
+      background: url("../img/index-background-desktop@1x.jpg") no-repeat right top;
       background-size: cover;
     }
   }
 
+  .preview__wrapper {
+    box-sizing: border-box;
+    width: 1240px;
+    padding-bottom: 255px;
+    margin: 0 auto;
+  }
+
   .preview__title {
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+
+  .preview__discription {
+    margin-bottom: 54px;
   }
 
   .preview__img {
     position: absolute;
     top: 0;
-    left: 60%;
-    margin-left: -25%;
+    left: 35%;
   }
 }

@@ -1,27 +1,27 @@
 .another-product {
   margin: 0 auto;
-  margin-bottom: 61px;
+  margin-bottom: 40px;
   padding: 0;
+  padding-top: 37px;
   width: 280px;
   list-style: none;
 }
 
 @media (min-width: 768px) {
   .another-product {
+    padding-top: 25px;
+    margin-bottom: 43px;
     width: 708px;
+    border: 1px solid #cdcdcd;
+    border-bottom: none;
   }
 }
 
 @media (min-width: 1300px) {
-  .additionally-product__wrapper {
-    width: 1220px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
   .another-product {
+    padding-top: 0;
+    margin-left: 0;
     width: 895px;
+    border: none;
   }
 }

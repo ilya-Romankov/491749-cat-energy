@@ -30,7 +30,7 @@
 }
 
 .menu-header__item--active:hover .menu-header__link,
-.menu-header__item--active:active .menu-header__link  {
+.menu-header__item--active:active .menu-header__link {
   opacity: 1;
 }
 
@@ -64,6 +64,11 @@
   .menu-header {
     position: relative;
     z-index: 2;
+    width: 100%;
+  }
+
+  .menu-header__item--active-desktop {
+    border-bottom: 2px solid #ffffff;
   }
 
   .menu-header__link {

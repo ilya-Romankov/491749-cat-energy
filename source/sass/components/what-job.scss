@@ -4,12 +4,13 @@
 
 .what-job__wrapper {
   margin: 0 auto;
-  margin-bottom: 45px;
+  padding-bottom: 3px;
   width: 280px;
 }
 
 .what-job__title {
-  margin-top: 0;
+  margin: 0;
+  padding-bottom: 29px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
@@ -18,9 +19,10 @@
 
 @media (min-width: 768px) {
   .what-job {
-    padding-bottom: 80px;
+    padding-bottom: 54px;
     border-bottom: 1px solid #e6e6e6;
   }
+
   .what-job__wrapper {
     margin: 0 auto;
     margin-bottom: 0;
@@ -28,13 +30,18 @@
   }
 
   .what-job__title {
+    padding-bottom: 72px;
     font-size: 60px;
     line-height: 60px;
-    margin-bottom: 74px;
   }
 }
 
 @media (min-width: 1300px) {
+  .what-job {
+    border-bottom: none;
+    padding-bottom: 37px;
+  }
+
   .what-job__wrapper {
     width: 1220px;
   }

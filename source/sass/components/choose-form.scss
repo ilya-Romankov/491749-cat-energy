@@ -6,25 +6,39 @@
 
 @media (min-width: 768px) {
   .choose-form__btn-wrap {
-    width: 522px;
+    width: 630px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 11px;
+    margin-bottom: 138px;
+  }
+
+  .choose-form__btn-go {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 283px;
   }
 }
 
 @media (min-width: 1300px) {
   .choose-form__wrapper-dek {
-    margin: 0 auto;
-    width: 1200px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 49px;
+    width: 1220px;
   }
 
   .choose-form__btn-wrap {
     box-sizing: border-box;
     margin: 0 auto;
-    padding-right: 400px;
+    margin-bottom: 86px;
+    padding-right: 300px;
     width: 1220px;
+  }
+
+  .choose-form__btn-go {
+    width: 572px;
   }
 }
