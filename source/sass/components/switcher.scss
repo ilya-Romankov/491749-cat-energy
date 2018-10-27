@@ -21,7 +21,6 @@
     padding-top: 365px;
     padding-bottom: 70px;
     margin-top: 225px;
-    background-color: #f2f2f2;
     border: 1px solid transparent;//ЧТобы двигалась только каринка котов, а не весь блок
   }
 
@@ -47,13 +46,31 @@
   }
 
   .switcher__img-container {
-    width: 332px;
+    width: 330px;
     overflow: hidden;
   }
 }
 
 @media (min-width: 1300px) {
   .switcher {
+    box-sizing: border-box;
+    width: 610px;
+    padding-top: 375px;
+    padding-left: 38px;
     margin-top: 0;
+  }
+
+  .switcher__img-container {
+    width: 365px;
+  }
+
+  .switcher__img-cat {
+    top: -180px;
+    left: -30px;
+    width: 700px;
+  }
+
+  .switcher__love-boris--after {
+    left: -354px;
   }
 }

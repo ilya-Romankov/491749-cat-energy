@@ -1,5 +1,16 @@
 .footer-all-page {
+  position: relative;
   width: 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    z-index: -1;
+    width: 100%;
+    height: 110px;
+    background-color: #f2f2f2;
+  }
 }
 
 .footer-all-page__wrapper {
@@ -29,6 +40,13 @@
 }
 
 @media (min-width: 768px) {
+  .footer-all-page {
+    &::before {
+      top: -65px;
+      height: 202px;
+    }
+  }
+
   .footer-all-page__wrapper {
     width: 708px;
     margin: 0 auto;
@@ -51,9 +69,24 @@
 }
 
 @media (min-width: 1300px) {
+  .footer-all-page {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -65px;
+      z-index: -1;
+      display: none;
+      width: 100%;
+      height: 202px;
+      background-color: #f2f2f2;
+    }
+  }
+
   .footer-all-page__wrapper {
     position: relative;
-    width: 1220px;
+    width: 1220px; //Изменить на 1220 потом
     margin: 0 auto;
   }
 

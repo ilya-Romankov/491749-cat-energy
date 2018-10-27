@@ -23,6 +23,26 @@
 
 @media (min-width: 768px) {
   .another-character {
-    width: 50%;
+    max-width: 50%;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .another-character__characters-one--pad {
+    padding-right: 48px;
+  }
+
+  .another-character__characters-one {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .another-character {
+    width: 285px;
+  }
+
+  .another-character__characters-one--pad {
+    padding-right: 0;
   }
 }

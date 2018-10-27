@@ -28,22 +28,62 @@
   line-height: 20px;
 }
 
+.element-list__btn {
+  font-size: 16px;
+}
+
 @media (min-width: 768px) {
   .element-list {
-    margin-bottom: 20px;
+    margin-top: 141px;
+    padding-bottom: 38px;
     width: 324px;
     border: none;
     background-color: #f2f2f2;
   }
 
+  .element-list--no-product {
+    background-color: #ffffff;
+    border: 1px solid #cdcdcd;
+    padding-bottom: 20px;
+  }
+
+  .element-list__characters {
+    margin-bottom: 22px;
+  }
+
   .element-list__link-image {
-    display: block;
-    width: 195px;
+    margin-top: -120px;
+    margin-bottom: 137px;
+  }
+
+  .element-list__wrapper {
+    width: 248px;
+  }
+
+  .element-list__title {
+    margin: 0 auto;
+    margin-bottom: 17px;
+    width: 134px;
+    text-align: center;
+  }
+
+  .element-list__link {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 
 @media (min-width: 1300px) {
   .element-list {
+    margin-top: 145px;
     width: 245px;
+  }
+
+  .element-list__title {
+    margin-bottom: 16px;
+  }
+
+  .element-list__wrapper {
+    width: 169px;
   }
 }
