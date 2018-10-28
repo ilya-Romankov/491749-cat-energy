@@ -94,7 +94,7 @@
   .preview__img {
     position: absolute;
     bottom: -20px;
-    left: 80px;
+    left: 0;
     z-index: -1;
     order: 4;
     width: auto;
@@ -141,7 +141,9 @@
 
   .preview__img {
     position: absolute;
-    top: 0;
-    left: 35%;
+    width: 552px;
+    height: 499px;
+    top: 16px;
+    left: 37%;
   }
 }
