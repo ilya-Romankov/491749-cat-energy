@@ -5,6 +5,10 @@
 }
 
 @media (min-width: 768px) {
+  .choose-form {
+    overflow: hidden;
+  }
+
   .choose-form__btn-wrap {
     width: 630px;
     display: flex;

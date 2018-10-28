@@ -66,8 +66,8 @@
     box-sizing: border-box;
     width: 708px;
     margin-bottom: 0;
-    padding-left: 90px;
-    padding-top: 61px;
+    padding-left: 88px;
+    padding-top: 48px;
     padding-bottom: 515px;
   }
 
@@ -109,7 +109,7 @@
 @media (min-width: 1300px) {
   .preview {
     &::before {
-      top: -110px;
+      top: -128px;
       left: auto;
       right: 0;
       z-index: -1;
@@ -125,6 +125,8 @@
   .preview__wrapper {
     box-sizing: border-box;
     width: 1240px;
+    padding-top: 43px;
+    padding-left: 90px;
     padding-bottom: 255px;
     margin: 0 auto;
   }

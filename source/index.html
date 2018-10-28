@@ -12,7 +12,11 @@
       <div class="header-all-page__wrapper">
         <div class="header-all-page__wrapper-logo-switch">
           <a class="header-all-page__logo logo-main">
-            <img class="logo-main__cat-logo image-cat-logo" src="img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
+            <picture>
+              <source media="(min-width: 1300px)" srcset="img/logo-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+              <img class="logo-main__cat-logo image-cat-logo" src="img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
+            </picture>
           </a>
           <button class="header-all-page__switcher header-all-page__switcher--close" type="button" name="open-closs"></button>
         </div>
