@@ -115,10 +115,18 @@
             <div class="switcher">
               <div class="switcher__img-cat">
                 <div class="switcher__img-container">
-                  <img class="switcher__love-boris love-boris" src="img/before-mobile@1x.png" alt="Кот Борис" width="311" height="232">
+                  <picture>
+                    <source media="(min-width: 1300px)" srcset="img/before-desktop@1x.png 1x, img/before-desktop@2x.png 2x">
+                    <source media="(min-width: 768px)" srcset="img/before-tablet@1x.png 1x, img/before-tablet@2x.png 2x">
+                    <img class="switcher__love-boris love-boris" src="img/before-mobile@1x.png"  srcset="img/before-mobile@2x.png 2x" alt="Кот Борис" width="311" height="232">
+                  </picture>
                 </div>
                 <div class="switcher__img-container">
-                  <img class="switcher__love-boris switcher__love-boris--vision switcher__love-boris--after love-boris" src="img/after-mobile@1x.png" alt="Кот Борис" width="311" height="232">
+                  <picture>
+                    <source media="(min-width: 1300px)" srcset="img/after-desktop@1x.png">
+                    <source media="(min-width: 768px)" srcset="img/after-tablet@1x.png">
+                    <img class="switcher__love-boris switcher__love-boris--vision switcher__love-boris--after love-boris" src="img/after-mobile@1x.png" alt="Кот Борис" width="311" height="232">
+                  </picture>
                 </div>
               </div>
               <div class="switcher__switchers-element switchers-element">
@@ -146,7 +154,11 @@
         </section>
       </div>
         <p class="footer-all-page__map map">
-          <img class="map__img" src="img/bg-map-mobile@1x.png" alt="Улюца Конюшная 19" width="320" height="385">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.png 1x, img/bg-map-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png 1x, img/bg-map-tablet@2x.png 2x">
+            <img class="map__img" src="img/bg-map-mobile@1x.png" srcset="" alt="Улюца Конюшная 19" width="320" height="385">
+          </picture>
         </p>
       <section class="footer-all-page__link-information link-information">
         <div class="footer-all-page__wrapper">
