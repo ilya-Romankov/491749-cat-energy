@@ -34,7 +34,7 @@
 
 @media (min-width: 768px) {
   .element-list {
-    margin-top: 141px;
+    margin-top: 140px;
     padding-bottom: 38px;
     width: 324px;
     border: none;
@@ -53,28 +53,22 @@
 
   .element-list__link-image {
     height: auto;
-    margin-top: -120px;
     margin-bottom: 137px;
   }
 
-  .element-list__image--small {
-    width: 161px;
-    height: 172px;
-  }
-
-  .element-list__image--small {
-    width: 195px;
-    height: 208px;
-  }
-
   .element-list__link-image--small {
-    width: 161px;
-    height: 172px;
+    margin-top: -46px;
+    margin-bottom: 35px;
   }
 
   .element-list__link-image--big {
-    width: 195px;
-    height: 208px;
+    margin-top: -83px;
+    margin-bottom: 36px
+  }
+
+  .element-list__image {
+    width: 100%;
+    height: auto;
   }
 
   .element-list__wrapper {
@@ -91,6 +85,10 @@
   .element-list__link {
     font-size: 20px;
     line-height: 20px;
+  }
+
+  .element-list__btn {
+    width: 250px;
   }
 }
 
