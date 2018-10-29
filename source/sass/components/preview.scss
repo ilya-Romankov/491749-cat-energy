@@ -127,6 +127,8 @@
 
       @media (min-resolution: 1.5dppx), (min-resolution: 1.5dppx) {
         background: url("../img/index-background-desktop@2x.jpg");
+        background-size: cover;
+        background-position: right top;
       }
     }
   }
