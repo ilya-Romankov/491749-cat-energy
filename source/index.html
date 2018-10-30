@@ -12,7 +12,11 @@
       <div class="header-all-page__wrapper">
         <div class="header-all-page__wrapper-logo-switch">
           <a class="header-all-page__logo logo-main">
-            <img class="logo-main__cat-logo image-cat-logo" src="img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
+            <picture>
+              <source media="(min-width: 1300px)" srcset="img/logo-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+              <img class="logo-main__cat-logo image-cat-logo" src="img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
+            </picture>
           </a>
           <button class="header-all-page__switcher header-all-page__switcher--close" type="button" name="open-closs"></button>
         </div>
@@ -31,7 +35,11 @@
         <div class="preview__wrapper">
           <h1 class="preview__title title-page">Функциональное питание для котов</h1>
           <p class="preview__discription">Занялся собой? Займись котом!</p>
-          <img class="preview__img" src="img/index-can-mobile@1x.png" alt="Картинка товара" width="280" height="270">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="img/index-can-desktop@1x.png 1x, img/index-can-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/index-can-tablet@1x.jpg 1x, img/index-can-tablet@2x.jpg 2x">
+            <img class="preview__img" src="img/index-can-mobile@1x.png" srcset="img/index-can-mobile@2x.png 2x" alt="Картинка товара" width="280" height="270">
+          </picture>
           <a class="preview__link btn btn--try" href="#">Подобрать программу</a>
         </div>
       </section>
@@ -107,10 +115,18 @@
             <div class="switcher">
               <div class="switcher__img-cat">
                 <div class="switcher__img-container">
-                  <img class="switcher__love-boris love-boris" src="img/before-mobile@1x.png" alt="Кот Борис" width="311" height="232">
+                  <picture>
+                    <source media="(min-width: 1300px)" srcset="img/before-desktop@1x.png 1x, img/before-desktop@2x.png 2x">
+                    <source media="(min-width: 768px)" srcset="img/before-tablet@1x.png 1x, img/before-tablet@2x.png 2x">
+                    <img class="switcher__love-boris love-boris" src="img/before-mobile@1x.png"  srcset="img/before-mobile@2x.png 2x" alt="Кот Борис" width="311" height="232">
+                  </picture>
                 </div>
                 <div class="switcher__img-container">
-                  <img class="switcher__love-boris switcher__love-boris--vision switcher__love-boris--after love-boris" src="img/after-mobile@1x.png" alt="Кот Борис" width="311" height="232">
+                  <picture>
+                    <source media="(min-width: 1300px)" srcset="img/after-desktop@1x.png 1x, img/after-desktop@2x.png 2x">
+                    <source media="(min-width: 768px)" srcset="img/after-tablet@1x.png 1x, img/after-tablet@2x.png 2x">
+                    <img class="switcher__love-boris switcher__love-boris--vision switcher__love-boris--after love-boris" src="img/after-mobile@1x.png" srcset="img/after-mobile@2x.png 2x" alt="Кот Борис" width="311" height="232">
+                  </picture>
                 </div>
               </div>
               <div class="switcher__switchers-element switchers-element">
@@ -138,7 +154,11 @@
         </section>
       </div>
         <p class="footer-all-page__map map">
-          <img class="map__img" src="img/bg-map-mobile@1x.png" alt="Улюца Конюшная 19" width="320" height="385">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.png 1x, img/bg-map-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png 1x, img/bg-map-tablet@2x.png 2x">
+            <img class="map__img" src="img/bg-map-mobile@1x.png" srcset="img/bg-map-mobile@2x.png 2x" alt="Улюца Конюшная 19" width="320" height="385">
+          </picture>
         </p>
       <section class="footer-all-page__link-information link-information">
         <div class="footer-all-page__wrapper">

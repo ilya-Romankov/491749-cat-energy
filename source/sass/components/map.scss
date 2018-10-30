@@ -9,13 +9,15 @@
 
 @media (min-width: 768px) {
   .map__img {
-    width: 708px;
+    width: 100%;
+    max-width: 770px;
     height: 396px;
   }
 }
 
 @media (min-width: 1300px) {
   .map__img {
-    width: 1220px;
+    width: 100%;
+    max-width: 1440px;
   }
 }

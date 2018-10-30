@@ -46,8 +46,12 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding-top: 38px;
+    padding-top: 26px;
     width: 708px;
+  }
+
+  .header-all-page__wrapper-logo-switch {
+    padding-bottom: 5px;
   }
 
   .header-all-page__switcher {
@@ -59,12 +63,13 @@
   .header-all-page__wrapper {
     display: flex;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 56px;
     margin: 0 auto;
     width: 1220px;
   }
 
   .header-all-page__wrapper-logo-switch {
     margin-left: 0;
+    padding-bottom: 10px;
   }
 }

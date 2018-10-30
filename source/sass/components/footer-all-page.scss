@@ -1,7 +1,9 @@
 .footer-all-page {
   position: relative;
   width: 100%;
+}
 
+.footer-all-page--decor-bg {
   &::before {
     content: "";
     position: absolute;
@@ -40,7 +42,7 @@
 }
 
 @media (min-width: 768px) {
-  .footer-all-page {
+  .footer-all-page--decor-bg {
     &::before {
       top: -65px;
       height: 202px;

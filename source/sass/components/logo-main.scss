@@ -1,1 +1,18 @@
-//Временный файл для пп, пока нет адаптивной графики
+.logo-main__cat-logo {
+  width: 192px;
+  height: 38px;
+}
+
+@media (min-width: 768px) {
+  .logo-main__cat-logo {
+    width: 173px;
+    height: 58px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .logo-main__cat-logo {
+    width: 202px;
+    height: 59px;
+  }
+}
