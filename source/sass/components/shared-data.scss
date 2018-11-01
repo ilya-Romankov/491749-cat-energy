@@ -63,6 +63,11 @@
 .shared-data__form-wrap--comment {
   margin-top: 35px;
   margin-bottom: 26px;
+  border: 1px solid #cdcdcd;
+
+  &:hover {
+    border: 1px solid #444444;
+  }
 }
 
 .shared-data__comment {

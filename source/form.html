@@ -43,11 +43,11 @@
               <div class="shared-data__form-wrap shared-data__form-wrap--dekstop-width">
                 <p class="shared-data__element-form element-form shared-data__element-form--start-data">
                   <label class="element-form__label element-form__label--first-data" for="name-cat">Имя:*</label>
-                  <input class="element-form__input element-form__input--collect-text" type="text" name="name-cat" id="name-cat" placeholder="Барсик">
+                  <input class="element-form__input element-form__input--collect-text" type="text" name="name-cat" id="name-cat" placeholder="Барсик" required>
                 </p>
                 <p class="shared-data__element-form element-form shared-data__element-form--start-data">
                   <label class="element-form__label element-form__label--first-data" for="fat-cat">Вес (кг):*</label>
-                  <input class="element-form__input element-form__input--collect-text" type="text" name="fat-cat" id="fat-cat" placeholder="7">
+                  <input class="element-form__input element-form__input--collect-text" type="text" name="fat-cat" id="fat-cat" placeholder="7" required>
                 </p>
                 <p class="shared-data__element-form element-form shared-data__element-form--start-data">
                   <label class="element-form__label element-form__label--first-data" for="year-cat">Возраст (лет):</label>
@@ -59,16 +59,16 @@
               <div class="shared-data__wrapper shared-data__wrapper--radio-programm shared-data__wrapper--dekstop-width">
                 <div class="shared-data__form-wrap shared-data__form-wrap--radio">
                   <p class="shared-data__element-form element-form element-form--mode-m">
+                    <input class="element-form__input element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="slim-cat" checked>
                     <label class="element-form__label element-form__label--mode-label" for="slim-cat">Похудение</label>
-                    <input class="element-form__input visiually-hidden" type="radio" name="program" id="slim-cat" checked>
                   </p>
                   <p class="shared-data__element-form element-form element-form--mode-m">
+                    <input class="element-form__input  element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="mas-cat">
                     <label class="element-form__label element-form__label--mode-label" for="mas-cat">Набор массы</label>
-                    <input class="element-form__input visiually-hidden" type="radio" name="program" id="mas-cat">
                   </p>
                   <p class="shared-data__element-form element-form element-form--mode-m">
+                    <input class="element-form__input  element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="dont-cat" disabled>
                     <label class="element-form__label element-form__label--mode-label" for="dont-cat">Не знаю (нужен ваш совет)</label>
-                    <input class="element-form__input visiually-hidden" type="radio" name="program" id="dont-cat">
                   </p>
                 </div>
               </div>
@@ -79,11 +79,11 @@
             <div class="shared-data__form-wrap shared-data__form-wrap--contact">
               <p class="shared-data__element-form element-form element-form--contact">
                 <label class="element-form__label element-form__label--contact-label element-form__label--contact-label-mail" for="email-user">E-mail:*</label>
-                <input class="element-form__input element-form__input--contact-input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com">
+                <input class="element-form__input element-form__input--contact-input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com" required>
               </p>
               <p class="shared-data__element-form element-form element-form--contact">
                 <label class="element-form__label element-form__label--contact-label" for="phone-user">Телефон:*</label>
-                <input class="element-form__input element-form__input--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90">
+                <input class="element-form__input element-form__input--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90" required>
               </p>
             </div>
           </fieldset>
@@ -97,20 +97,20 @@
             <legend class="shared-data__title"><span class="shared-data__title-sub">Дополнительно</span></legend>
             <div class="shared-data__form-wrap shared-data__form-wrap--more-choose">
               <p class="shared-data__element-form element-form element-form--more-m">
+                <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="sugar" id="sugar" checked>
                 <label class="element-form__label element-form__label--more" for="sugar">Сахарохаменитель</label>
-                <input class="element-form__input visiually-hidden" type="checkbox" name="sugar" id="sugar">
               </p>
               <p class="shared-data__element-form element-form element-form--more-m">
+                <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="water" id="water">
                 <label class="element-form__label element-form__label--more" for="water">Питьевая вода</label>
-                <input class="element-form__input visiually-hidden" type="checkbox" name="water" id="water">
               </p>
               <p class="shared-data__element-form element-form element-form--more-m">
+                <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="milk" id="milk">
                 <label class="element-form__label element-form__label--more" for="milk">Молоко</label>
-                <input class="element-form__input visiually-hidden" type="checkbox" name="milk" id="milk">
               </p>
               <p class="shared-data__element-form element-form element-form--more-m">
+                <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="vitamin" id="vitamin" disabled>
                 <label class="element-form__label element-form__label--more" for="vitamin">Витамины</label>
-                <input class="element-form__input visiually-hidden" type="checkbox" name="vitamin" id="vitamin">
               </p>
             </div>
           </fieldset>
