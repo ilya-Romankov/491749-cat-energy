@@ -63,11 +63,6 @@
 .shared-data__form-wrap--comment {
   margin-top: 35px;
   margin-bottom: 26px;
-  border: 1px solid #cdcdcd;
-
-  &:hover {
-    border: 1px solid #444444;
-  }
 }
 
 .shared-data__comment {
@@ -79,6 +74,11 @@
   font-size: 16px;
   line-height: 18px;
   resize: vertical;
+
+  &:hover {
+    padding: 11px 11px 11px 14px;
+    border: 2px solid #444444;
+  }
 }
 
 .shared-data__comment::placeholder {
@@ -175,6 +175,11 @@
     padding-top: 16px;
     padding-left: 19px;
     font-size: 20px;
+
+    &:hover {
+      padding-top: 15px;
+      padding-left: 18px;
+    }
   }
 
   .shared-data__comment::placeholder {
