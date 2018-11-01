@@ -22,6 +22,10 @@
   text-transform: uppercase;
   color: #444444;
   border: 1px solid #cdcdcd;
+
+  &:hover {
+    border: 1px solid #444444;
+  }
 }
 
 .element-form__input--collect-text::placeholder {
@@ -68,24 +72,24 @@
 }
 
  .element-form__input--radio-btn:checked + .element-form__label--mode-label {
-     &::before {
-        content: "";
-        position: absolute;
-        left: 9px;
-        top: 2px;
-        display: block;
-        width: 12px;
-        height: 12px;
-        background-color: #68b738;
-        border-radius: 50%;
-        cursor: pointer;
-     }
+    &::before {
+      content: "";
+      position: absolute;
+      left: 9px;
+      top: 2px;
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-color: #68b738;
+      border-radius: 50%;
+      cursor: pointer;
+    }
  }
 
   .element-form__input--radio-btn:focus + .element-form__label--mode-label {
-      &::after {
-        border-color: #0000ff;
-      }
+    &::after {
+      border-color: #0000ff;
+    }
   }
 
  .element-form__input--radio-btn:disabled + .element-form__label--mode-label {
@@ -112,6 +116,10 @@
   text-transform: uppercase;
   color: #444444;
   border: 1px solid #cdcdcd;
+
+  &:hover {
+    border: 1px solid #444444;
+  }
 }
 
 .element-form__input--contact-input::placeholder {
@@ -156,6 +164,12 @@
   }
 }
 
+.element-form__label--more:hover {
+  &::before {
+    border: 1px solid #bababa;
+  }
+}
+
 .element-form__input--checkbox:focus + .element-form__label--more {
   &::before {
     border-color: #0000ff;
@@ -171,6 +185,8 @@
     cursor: not-allowed;
   }
 }
+
+
 
 @media (min-width: 768px) {
   .element-form {
