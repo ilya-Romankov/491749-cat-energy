@@ -74,10 +74,15 @@
   font-size: 16px;
   line-height: 18px;
   resize: vertical;
+  border: 1px solid rgba(205, 205, 205, 0.3);
 
   &:hover {
     padding: 11px 11px 11px 14px;
-    border: 2px solid #444444;
+    border: 2px solid #cdcdcd;
+  }
+
+  &:focus {
+    outline: 2px solid #444444;
   }
 }
 
