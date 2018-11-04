@@ -46,6 +46,14 @@
 
 .more-item__link {
   font-size: 16px;
+
+  &:hover {
+    background-color: #ebebeb;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: 768px) {

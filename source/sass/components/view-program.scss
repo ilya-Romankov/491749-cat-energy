@@ -89,6 +89,16 @@
     height: 11px;
     background: url("../img/icon-right-arrow-long.svg") no-repeat;
   }
+
+  &:hover {
+    &::after {
+      background: url("../img/icon-right-arrow-verylong.svg") no-repeat;
+    }
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: 768px) {
