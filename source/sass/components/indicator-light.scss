@@ -40,6 +40,13 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     border: 1px solid #cdcdcd;
     cursor: pointer;
+
+    &:focus {
+      width: 32px;
+      height: 32px;
+      border: 2px solid #68b738;
+      outline: none;
+    }
   }
 
   .indicator-light__elements-in {

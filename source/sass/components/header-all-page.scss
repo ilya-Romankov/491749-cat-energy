@@ -26,6 +26,15 @@
   }
 }
 
+.header-all-page__logo--no-active {
+  cursor: default;
+
+  &:hover,
+  &:active {
+    opacity: 1;
+  }
+}
+
 .header-all-page__switcher {
   display: block;
   width: 18px;
@@ -35,6 +44,7 @@
   margin-left: auto;
   border: none;
   cursor: pointer;
+  visibility: hidden;
 }
 
 .header-all-page__switcher--close {

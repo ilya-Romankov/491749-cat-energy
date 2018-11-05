@@ -27,6 +27,16 @@
   border-bottom: 1px solid #dadada;
 }
 
+.footer-all-page__logo--active {
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
 .footer-all-page__map {
   margin-bottom: 0;
 }
@@ -67,6 +77,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .footer-all-page__social {
+    margin-left: 44px;
   }
 }
 

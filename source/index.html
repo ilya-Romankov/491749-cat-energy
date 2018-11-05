@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Кэт энерджи</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="picturefill/dist/picturefill.min.js" async></script>
+    <script>
+  // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
   </head>
   <body>
-
     <header class="header-all-page">
       <div class="header-all-page__wrapper">
         <div class="header-all-page__wrapper-logo-switch">
-          <a class="header-all-page__logo logo-main">
+          <a class="header-all-page__logo header-all-page__logo--no-active logo-main">
             <picture>
               <source media="(min-width: 1300px)" srcset="img/logo-desktop.svg">
               <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
               <img class="logo-main__cat-logo image-cat-logo" src="img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
             </picture>
           </a>
-          <button class="header-all-page__switcher header-all-page__switcher--close" type="button" name="open-closs"></button>
+          <button class="header-all-page__switcher header-all-page__switcher--close" type="button" name="open-closs"></button> <!-- Этот элемент скрыт, но функционал с меню будет доделан позже. ПРосто по времени не успеваю -->
         </div>
         <nav class="main-navigation">
           <ul class="menu-header">
             <li class="menu-header__item menu-header__item--active menu-header__item--active-desktop"><a class="menu-header__link">Главная</a></li>
             <li class="menu-header__item"><a class="menu-header__link" href="catalog.html">Каталог продукции</a></li>
-            <li class="menu-header__item"><a class="menu-header__link" href="form.html">Подбор программы</a></li>
+            <li class="menu-header__item menu-header__item--border"><a class="menu-header__link" href="form.html">Подбор программы</a></li>
           </ul>
         </nav>
       </div>
@@ -36,6 +40,10 @@
           <h1 class="preview__title title-page">Функциональное питание для котов</h1>
           <p class="preview__discription">Занялся собой? Займись котом!</p>
           <picture>
+            <source type="image/webp" media="(min-width: 1300px)" srcset="img/index-can-desktop@1x.webp 1x, img/index-can-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/index-can-tablet@1x.webp 1x, img/index-can-tablet@2xt.webp 2x">
+            <source type="image/webp" srcset="img/index-can-mobile@1x.webp 1x, img/index-can-mobile@2x.webp 2x">
+
             <source media="(min-width: 1300px)" srcset="img/index-can-desktop@1x.png 1x, img/index-can-desktop@2x.png 2x">
             <source media="(min-width: 768px)" srcset="img/index-can-tablet@1x.jpg 1x, img/index-can-tablet@2x.jpg 2x">
             <img class="preview__img" src="img/index-can-mobile@1x.png" srcset="img/index-can-mobile@2x.png 2x" alt="Картинка товара" width="280" height="270">
@@ -116,6 +124,10 @@
               <div class="switcher__img-cat">
                 <div class="switcher__img-container">
                   <picture>
+                    <source type="image/webp" media="(min-width: 1300px)" srcset="img/before-desktop@1x.webp 1x, img/before-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/before-tablet@1x.webp 1x, img/before-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/before-mobile@1x.webp 1x, img/before-mobile@2x.webp 2x">
+
                     <source media="(min-width: 1300px)" srcset="img/before-desktop@1x.png 1x, img/before-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/before-tablet@1x.png 1x, img/before-tablet@2x.png 2x">
                     <img class="switcher__love-boris love-boris" src="img/before-mobile@1x.png"  srcset="img/before-mobile@2x.png 2x" alt="Кот Борис" width="311" height="232">
@@ -123,6 +135,10 @@
                 </div>
                 <div class="switcher__img-container">
                   <picture>
+                    <source type="image/webp" media="(min-width: 1300px)" srcset="img/after-desktop@1x.webp 1x, img/after-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/after-tablet@1x.webp 1x, img/after-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/after-mobile@1x.webp 1x, img/after-mobile@2x.webp 2x">
+
                     <source media="(min-width: 1300px)" srcset="img/after-desktop@1x.png 1x, img/after-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/after-tablet@1x.png 1x, img/after-tablet@2x.png 2x">
                     <img class="switcher__love-boris switcher__love-boris--vision switcher__love-boris--after love-boris" src="img/after-mobile@1x.png" srcset="img/after-mobile@2x.png 2x" alt="Кот Борис" width="311" height="232">
@@ -130,15 +146,15 @@
                 </div>
               </div>
               <div class="switcher__switchers-element switchers-element">
+                <input class="switchers-element__input visiually-hidden" type="radio" name="left" id="left-toggle">
                 <label class="switchers-element__label" for="left-toggle">Было</label>
-                <input class="visiually-hidden" type="radio" name="left" id="left-toggle">
                 <div class="switchers-element__indicator indicator-light">
-                  <span class="indicator-light__elements">
+                  <span class="indicator-light__elements" tabindex="0">
                     <span class="indicator-light__elements-in"></span>
                   </span>
                 </div>
+                <input class="switchers-element__input visiually-hidden" type="radio" name="left" id="right-toggle">
                 <label class="switchers-element__label" for="right-toggle">Стало</label>
-                <input class="visiually-hidden" type="radio" name="left" id="right-toggle">
               </div>
             </div>
           </div>
@@ -153,13 +169,21 @@
           <address class="other-information__place">ул. Большая Конюшенная, д. 19/8 <span class="other-information__city">Санкт-Петербург</span></address>
         </section>
       </div>
-        <p class="footer-all-page__map map">
-          <picture>
-            <source media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.png 1x, img/bg-map-desktop@2x.png 2x">
-            <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png 1x, img/bg-map-tablet@2x.png 2x">
-            <img class="map__img" src="img/bg-map-mobile@1x.png" srcset="img/bg-map-mobile@2x.png 2x" alt="Улюца Конюшная 19" width="320" height="385">
-          </picture>
-        </p>
+        <div class="footer-all-page__map map">
+          <iframe class="map__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5953794558852!2d30.321431057713315!3d59.938855986736115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+Street%2C+19%2C+Sankt-Peterburg%2C+191186!5e0!3m2!1sen!2sru!4v1536758010525" width="1200" height="430" allowfullscreen=""></iframe>
+          <div class="map__wrapper">
+            <img class="map_pin" src="img/map-pin.png" alt="Указатель на место нахождения" width="55" height="53">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.webp 1x, img/bg-map-desktop@2x.webp 2x">
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.webp 1x, img/bg-map-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/bg-map-mobile@1x.webp 1x, img/bg-map-mobile@2x.webp 2x">
+
+              <source media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.png 1x, img/bg-map-desktop@2x.png 2x">
+              <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png 1x, img/bg-map-tablet@2x.png 2x">
+              <img class="map__img" src="img/bg-map-mobile@1x.png" srcset="img/bg-map-mobile@2x.png 2x" alt="Улюца Конюшная 19" width="320" height="385">
+            </picture>
+          </div>
+        </div>
       <section class="footer-all-page__link-information link-information">
         <div class="footer-all-page__wrapper">
           <h2 class="visiually-hidden">Ссылки</h2>
@@ -168,19 +192,36 @@
               <img class="footer-all-page__cat-logo image-write-logo" src="img/logo-footer.svg" alt="CatEnergy" width="124" height="24">
             </a>
             <ul class="footer-all-page__social social">
-              <li class="social__item"><a class="social__link" href="#"><span class="visiually-hidden">Смотрите в вк</span></a></li>
-              <li class="social__item"><a class="social__link social__link--space" href="#"><span class="visiually-hidden">Смотрите в вк</span></a></li>
-              <li class="social__item"><a class="social__link" href="#"><span class="visiually-hidden">Смотрите в вк</span></a></li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <span class="visiually-hidden">Смотрите в вк</span>
+                  <svg class="social__svg-icon social__svg-icon--vk" width="22" height="12"><use xlink:href="img/svg-sprite.svg#vk"></use></svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--space" href="#">
+                  <span class="visiually-hidden">Смотрите в вк</span>
+                  <svg class="social__svg-icon social__svg-icon--inst" width="16" height="16"><use xlink:href="img/svg-sprite.svg#inst"></use></svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <span class="visiually-hidden">Смотрите в вк</span>
+                  <svg class="social__svg-icon social__svg-icon--fb" width="10" height="19"><use xlink:href="img/svg-sprite.svg#fb"></use></svg>
+                </a>
+              </li>
             </ul>
             <p class="footer-all-page__html-academy html-academy">
-              <a class="html-academy__link" href="#">
+              <a class="html-academy__link" href="https://htmlacademy.ru/intensive/adaptive">
                 <span class="html-academy__name">HTML Academy</span>
-                <img class="html-academy__logo" src="img/htmlacademy.svg" alt="Логотип академии" width="52" height="44">
+                <svg class="html-academy__logo" width="46" height="43"><use xlink:href="img/svg-sprite.svg#academy"></use></svg>
               </a>
             </p>
           </div>
         </div>
       </section>
     </footer>
+    <script src="svg4everybody/dist/svg4everybody.min.js"></script>
+    <script>svg4everybody();</script>
   </body>
 </html>
