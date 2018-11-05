@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Кэт энерджи</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="picturefill/dist/picturefill.min.js" async></script>
+    <script>
+  // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
   </head>
   <body>
 
@@ -80,12 +85,12 @@
               <p class="shared-data__element-form element-form element-form--contact element-form--contact-mail">
                 <label class="element-form__label element-form__label--contact-label element-form__label--contact-label-mail" for="email-user">E-mail:*</label>
                 <input class="element-form__input element-form__input--contact-input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com" required>
-                <svg class="element-form__icon--mail" width="10" height="19"><use xlink:href="img/svg-sprite.svg#mail-form"></use></svg>
+                <svg class="element-form__icon-mail" width="10" height="19"><use xlink:href="img/svg-sprite.svg#mail-form"></use></svg>
               </p>
               <p class="shared-data__element-form element-form element-form--contact element-form--contact-phone">
                 <label class="element-form__label element-form__label--contact-label element-form__label--contact-label-phone" for="phone-user">Телефон:*</label>
-                <input class="element-form__input element-form__input--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90" required>
-                <svg class="element-form__icon--phone" width="20" height="20"><use xlink:href="img/svg-sprite.svg#phone-form"></use></svg>
+                <input class="element-form__input element-form__input--phone element-form__input--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90" required>
+                <svg class="element-form__icon-phone" width="20" height="20"><use xlink:href="img/svg-sprite.svg#phone-form"></use></svg>
               </p>
             </div>
           </fieldset>
@@ -183,7 +188,7 @@
         </div>
       </section>
     </footer>
-    <script src="svg4everybody/svg4everybody.js"></script>
+    <script src="svg4everybody/dist/svg4everybody.js"></script>
     <script>svg4everybody();</script>
   </body>
 </html>

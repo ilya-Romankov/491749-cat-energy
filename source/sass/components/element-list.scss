@@ -8,12 +8,14 @@
 }
 
 .element-list__title {
-  width: 72px;
+  width: 73px;
   margin-top: 20px;
   margin-bottom: 13px;
 }
 
 .element-list__link {
+  display: block;
+  width: 100%;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
