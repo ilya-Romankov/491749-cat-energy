@@ -4,14 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Кэт энерджи</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/picturefill.min.js" async></script>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/picturefill.min.js" async=""></script>
     <script>
   // Picture element HTML5 shiv
       document.createElement( "picture" );
     </script>
   </head>
   <body>
+    <div style="display:none">
+      <include src="build/img/sprite.svg"></include>
+    </div>
 
     <header class="header-all-page">
       <div class="header-all-page__wrapper">
@@ -42,17 +45,17 @@
         <div class="filter-programm__wrapper-title">
           <p class="filter-programm__instruction">Заполните анкету и мы подберем программу питания для вашего кота</p>
         </div>
-        <form class="filter-programm__form choose-form" action="https://echo.htmlacademy.ru" method="post" >
+        <form class="filter-programm__form choose-form" action="https://echo.htmlacademy.ru" method="post">
           <div class="choose-form__wrapper-dek">
             <fieldset class="choose-form__shared-data shared-data shared-data--mar1 shared-data--dekstop-width">
               <div class="shared-data__form-wrap shared-data__form-wrap--dekstop-width">
                 <p class="shared-data__element-form element-form shared-data__element-form--start-data">
                   <label class="element-form__label element-form__label--first-data" for="name-cat">Имя:*</label>
-                  <input class="element-form__input element-form__input--collect-text" type="text" name="name-cat" id="name-cat" placeholder="Барсик" required>
+                  <input class="element-form__input element-form__input--collect-text" type="text" name="name-cat" id="name-cat" placeholder="Барсик" required="">
                 </p>
                 <p class="shared-data__element-form element-form shared-data__element-form--start-data">
                   <label class="element-form__label element-form__label--first-data" for="fat-cat">Вес (кг):*</label>
-                  <input class="element-form__input element-form__input--collect-text" type="text" name="fat-cat" id="fat-cat" placeholder="7" required>
+                  <input class="element-form__input element-form__input--collect-text" type="text" name="fat-cat" id="fat-cat" placeholder="7" required="">
                 </p>
                 <p class="shared-data__element-form element-form shared-data__element-form--start-data">
                   <label class="element-form__label element-form__label--first-data element-form__label--fat-label" for="year-cat">Возраст (лет):</label>
@@ -64,7 +67,7 @@
               <div class="shared-data__wrapper shared-data__wrapper--radio-programm shared-data__wrapper--dekstop-width">
                 <div class="shared-data__form-wrap shared-data__form-wrap--radio">
                   <p class="shared-data__element-form element-form element-form--mode-m">
-                    <input class="element-form__input element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="slim-cat" checked>
+                    <input class="element-form__input element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="slim-cat" checked="">
                     <label class="element-form__label element-form__label--mode-label" for="slim-cat">Похудение</label>
                   </p>
                   <p class="shared-data__element-form element-form element-form--mode-m">
@@ -72,7 +75,7 @@
                     <label class="element-form__label element-form__label--mode-label" for="mas-cat">Набор массы</label>
                   </p>
                   <p class="shared-data__element-form element-form element-form--mode-m">
-                    <input class="element-form__input  element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="dont-cat" disabled>
+                    <input class="element-form__input  element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="dont-cat" disabled="">
                     <label class="element-form__label element-form__label--mode-label" for="dont-cat">Не знаю (нужен ваш совет)</label>
                   </p>
                 </div>
@@ -84,27 +87,27 @@
             <div class="shared-data__form-wrap shared-data__form-wrap--contact">
               <p class="shared-data__element-form element-form element-form--contact element-form--contact-mail">
                 <label class="element-form__label element-form__label--contact-label element-form__label--contact-label-mail" for="email-user">E-mail:*</label>
-                <input class="element-form__input element-form__input--contact-input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com" required>
-                <svg class="element-form__icon-mail" width="10" height="19"><use xlink:href="img/svg-sprite.svg#mail-form"></use></svg>
+                <input class="element-form__input element-form__input--contact-input" type="email" name="email" id="email-user" placeholder="kuklachev@gmail.com" required="">
+                <svg class="element-form__icon-mail" width="10" height="19"><use xlink:href="#icon-s-mail"></use></svg>
               </p>
               <p class="shared-data__element-form element-form element-form--contact element-form--contact-phone">
                 <label class="element-form__label element-form__label--contact-label element-form__label--contact-label-phone" for="phone-user">Телефон:*</label>
-                <input class="element-form__input element-form__input--phone element-form__input--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90" required>
-                <svg class="element-form__icon-phone" width="20" height="20"><use xlink:href="img/svg-sprite.svg#phone-form"></use></svg>
+                <input class="element-form__input element-form__input--phone element-form__input--contact-input" type="tel" name="phone" id="phone-user" placeholder="8 (960) 900-60-90" required="">
+                <svg class="element-form__icon-phone" width="20" height="20"><use xlink:href="#icon-s-phone"></use></svg>
               </p>
             </div>
           </fieldset>
           <fieldset class="choose-form__shared-data shared-data">
             <legend class="shared-data__title shared-data__title--contact"><span class="shared-data__title-sub shared-data__title-sub--conract">Комментарий</span></legend>
             <div class="shared-data__form-wrap shared-data__form-wrap--comment">
-              <textarea class="shared-data__comment comment"  rows="8" cols="80" placeholder="Расскажите обо всех повадках кота"></textarea>
+              <textarea class="shared-data__comment comment" rows="8" cols="80" placeholder="Расскажите обо всех повадках кота"></textarea>
             </div>
           </fieldset>
           <fieldset class="choose-form__shared-data shared-data">
             <legend class="shared-data__title"><span class="shared-data__title-sub">Дополнительно</span></legend>
             <div class="shared-data__form-wrap shared-data__form-wrap--more-choose">
               <p class="shared-data__element-form element-form element-form--more-m">
-                <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="sugar" id="sugar" checked>
+                <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="sugar" id="sugar" checked="">
                 <label class="element-form__label element-form__label--more" for="sugar">Сахарохаменитель</label>
               </p>
               <p class="shared-data__element-form element-form element-form--more-m">
@@ -116,7 +119,7 @@
                 <label class="element-form__label element-form__label--more" for="milk">Молоко</label>
               </p>
               <p class="shared-data__element-form element-form element-form--more-m">
-                <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="vitamin" id="vitamin" disabled>
+                <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="vitamin" id="vitamin" disabled="">
                 <label class="element-form__label element-form__label--more" for="vitamin">Витамины</label>
               </p>
             </div>
@@ -162,26 +165,26 @@
               <li class="social__item">
                 <a class="social__link" href="#">
                   <span class="visiually-hidden">Смотрите в вк</span>
-                  <svg class="social__svg-icon social__svg-icon--vk" width="22" height="12"><use xlink:href="img/svg-sprite.svg#vk"></use></svg>
+                  <svg class="social__svg-icon social__svg-icon--vk" width="22" height="12"><use xlink:href="#icon-s-vk"></use></svg>
                 </a>
               </li>
               <li class="social__item">
                 <a class="social__link social__link--space" href="#">
                   <span class="visiually-hidden">Смотрите в вк</span>
-                  <svg class="social__svg-icon social__svg-icon--inst" width="16" height="16"><use xlink:href="img/svg-sprite.svg#inst"></use></svg>
+                  <svg class="social__svg-icon social__svg-icon--inst" width="16" height="16"><use xlink:href="#icon-s-insta"></use></svg>
                 </a>
               </li>
               <li class="social__item">
                 <a class="social__link" href="#">
                   <span class="visiually-hidden">Смотрите в вк</span>
-                  <svg class="social__svg-icon social__svg-icon--fb" width="10" height="19"><use xlink:href="img/svg-sprite.svg#fb"></use></svg>
+                  <svg class="social__svg-icon social__svg-icon--fb" width="10" height="19"><use xlink:href="#icon-s-fb"></use></svg>
                 </a>
               </li>
             </ul>
             <p class="footer-all-page__html-academy html-academy">
               <a class="html-academy__link" href="https://htmlacademy.ru/intensive/adaptive">
                 <span class="html-academy__name">HTML Academy</span>
-                <svg class="html-academy__logo" width="46" height="43"><use xlink:href="img/svg-sprite.svg#academy"></use></svg>
+                <svg class="html-academy__logo" width="46" height="43"><use xlink:href="#icon-s-htmlacademy"></use></svg>
               </a>
             </p>
           </div>
