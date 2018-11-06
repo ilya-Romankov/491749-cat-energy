@@ -4,14 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Кэт энерджи</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="picturefill/dist/picturefill.min.js" async></script>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/picturefill.min.js" async=""></script>
     <script>
   // Picture element HTML5 shiv
       document.createElement( "picture" );
     </script>
   </head>
   <body>
+    <div style="display:none">
+      <include src="build/img/sprite.svg"></include>
+    </div>
+
 
     <header class="header-all-page">
       <div class="header-all-page__wrapper">
@@ -50,7 +54,7 @@
 
                     <source media="(min-width: 1300px)" srcset="img/chicken-small-desktop@1x.png 1x, img/chicken-small-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/chicken-small-tablet@1x.png 1x, img/chicken-small-tablet@2x.png 2x">
-                    <img class="element-list__image element-list__image--small" src="img/chicken-small-mobile@1x.jpg"  srcset="img/chicken-small-mobile@2x.jpg 2x" alt="Картинка товара" width="140" height="144">
+                    <img class="element-list__image element-list__image--small" src="img/chicken-small-mobile@1x.jpg" srcset="img/chicken-small-mobile@2x.jpg 2x" alt="Картинка товара" width="140" height="144">
                   </picture>
                 </a>
                 <div class="element-list__wrapper">
@@ -461,33 +465,33 @@
               <li class="social__item">
                 <a class="social__link" href="#">
                   <span class="visiually-hidden">Смотрите в вк</span>
-                  <svg class="social__svg-icon social__svg-icon--vk" width="22" height="12"><use xlink:href="img/svg-sprite.svg#vk"></use></svg>
+                  <svg class="social__svg-icon social__svg-icon--vk" width="22" height="12"><use xlink:href="#icon-s-vk"></use></svg>
                 </a>
               </li>
               <li class="social__item">
                 <a class="social__link social__link--space" href="#">
                   <span class="visiually-hidden">Смотрите в вк</span>
-                  <svg class="social__svg-icon social__svg-icon--inst" width="16" height="16"><use xlink:href="img/svg-sprite.svg#inst"></use></svg>
+                  <svg class="social__svg-icon social__svg-icon--inst" width="16" height="16"><use xlink:href="#icon-s-insta"></use></svg>
                 </a>
               </li>
               <li class="social__item">
                 <a class="social__link" href="#">
                   <span class="visiually-hidden">Смотрите в вк</span>
-                  <svg class="social__svg-icon social__svg-icon--fb" width="10" height="19"><use xlink:href="img/svg-sprite.svg#fb"></use></svg>
+                  <svg class="social__svg-icon social__svg-icon--fb" width="10" height="19"><use xlink:href="#icon-s-fb"></use></svg>
                 </a>
               </li>
             </ul>
             <p class="footer-all-page__html-academy html-academy">
               <a class="html-academy__link" href="https://htmlacademy.ru/intensive/adaptive">
                 <span class="html-academy__name">HTML Academy</span>
-                <svg class="html-academy__logo" width="46" height="43"><use xlink:href="img/svg-sprite.svg#academy"></use></svg>
+                <svg class="html-academy__logo" width="46" height="43"><use xlink:href="#icon-s-htmlacademy"></use></svg>
               </a>
             </p>
           </div>
         </div>
       </section>
     </footer>
-    <script src="svg4everybody/dist/svg4everybody.js"></script>
+    <script src="js/svg4everybody.min.js"></script>
     <script>svg4everybody();</script>
   </body>
 </html>
