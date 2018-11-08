@@ -74,7 +74,9 @@
   font-size: 16px;
   line-height: 18px;
   resize: vertical;
+  color: #444444;
   border: 1px solid rgba(205, 205, 205, 0.3);
+  text-transform: uppercase;
 
   &:hover {
     border: 1px solid #cdcdcd;
@@ -93,6 +95,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #444444;
+  opacity: 1;
 }
 
 .shared-data__form-wrap--more-choose {
