@@ -14,15 +14,6 @@
   margin: 0 auto;
 }
 
-.header-all-page__wrapper-logo-switch--padding {
-  padding-bottom: 9px;
-  border-bottom: 1px solid #e6e6e6;
-}
-
-.header-all-page__wrapper-logo-switch--border {
-  border-bottom: 1px solid #e6e6e6;
-}
-
 .header-all-page__logo {
   cursor: pointer;
 
@@ -52,7 +43,22 @@
   margin-right: 3px;
   margin-left: auto;
   border: none;
+  background-color: transparent;
+  cursor: default;
+  outline: none;
+}
+
+.header-all-page__wrapper-logo-switcher--padding {
+  padding-bottom: 9px;
+  border-bottom: 1px solid #e6e6e6;
   cursor: pointer;
+  outline: 1px solid aqua;
+}
+
+.header-all-page__wrapper-logo-switcher--border {
+  border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+  outline: 1px solid aqua;
 }
 
 .header-all-page__switcher--close {
