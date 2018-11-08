@@ -43,12 +43,26 @@
   margin-right: 3px;
   margin-left: auto;
   border: none;
-  cursor: pointer;
-  visibility: hidden;
+  background-color: transparent;
+  cursor: default;
+  outline: none;
+}
+
+.header-all-page__wrapper-logo-switch--padding {
+  padding-bottom: 9px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.header-all-page__wrapper-logo-switch--border {
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .header-all-page__switcher--close {
   background: url("../img/icon-close.svg");
+}
+
+.header-all-page__switcher--open {
+  background: url("../img/icon-mobile-menu.svg");
 }
 
 @media (min-width: 768px) {
