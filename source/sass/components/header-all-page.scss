@@ -51,6 +51,10 @@
   background: url("../img/icon-close.svg");
 }
 
+.header-all-page__switcher--open {
+  background: url("../img/icon-mobile-menu.svg");
+}
+
 @media (min-width: 768px) {
   .header-all-page__wrapper {
     display: flex;
