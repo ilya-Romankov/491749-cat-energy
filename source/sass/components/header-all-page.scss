@@ -14,6 +14,15 @@
   margin: 0 auto;
 }
 
+.header-all-page__wrapper-logo-switch--padding {
+  padding-bottom: 9px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.header-all-page__wrapper-logo-switch--border {
+  border-bottom: 1px solid #e6e6e6;
+}
+
 .header-all-page__logo {
   cursor: pointer;
 
@@ -44,7 +53,6 @@
   margin-left: auto;
   border: none;
   cursor: pointer;
-  visibility: hidden;
 }
 
 .header-all-page__switcher--close {

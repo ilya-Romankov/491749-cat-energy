@@ -29,8 +29,13 @@
               <img class="logo-main__cat-logo image-cat-logo" src="img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
             </picture>
           </a>
-          <!-- При закрытом меню на кнопке "header-all-page__switcher" должен висеть модфификатор  "header-all-page__switcher--open" и на меню "main-navigation" должен быть класс  "visiually-hidden"
-              При открытом меню меню модификатор "header-all-page__switcher--open" меняется на "header-all-page__switcher--close" и класса "visiually-hidden" быть не должно-->
+          <!--
+            Если меню открыто , то делаем так :
+            1).header-all-page__switcher--close меням на .header-all-page__switcher--open
+            2) К .main-navigation добавляем .main-navigation--no-block
+            3) К .header-all-page__wrapper-logo-switch добавляем .header-all-page__wrapper-logo-switch--padding(Если страница не главная, то ещё и .header-all-page__wrapper-logo-switch--border )
+
+          -->
           <button class="header-all-page__switcher header-all-page__switcher--close" type="button" name="open-closs"><span class="visiually-hidden">Открыть или закрыть меню</span></button> <!-- Этот элемент скрыт, но функционал с меню будет доделан позже. ПРосто по времени не успеваю -->
         </div>
         <nav class="main-navigation">
