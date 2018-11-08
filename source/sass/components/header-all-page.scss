@@ -52,13 +52,16 @@
   padding-bottom: 9px;
   border-bottom: 1px solid #e6e6e6;
   cursor: pointer;
-  outline: 1px solid aqua;
 }
 
 .header-all-page__wrapper-logo-switcher--border {
   border-bottom: 1px solid #e6e6e6;
   cursor: pointer;
-  outline: 1px solid aqua;
+}
+
+.header-all-page__wrapper-logo-switcher--padding:focus,
+.header-all-page__wrapper-logo-switcher--border:focus {
+    outline: 1px solid aqua;
 }
 
 .header-all-page__switcher--close {
