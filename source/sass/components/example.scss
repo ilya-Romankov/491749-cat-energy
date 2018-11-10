@@ -73,12 +73,24 @@
 
     &::after {
       bottom: 0;
+      left: 50%;
+      margin-left: -600px;
       height: 462px;
-      background: linear-gradient(to right, #f2f2f2 0%, #f2f2f2 72.5%, #eaeaea 72.5%, #eaeaea 100%);
+      width: 1200px;
+      background: linear-gradient(to right, #f2f2f2 0%, #f2f2f2 77%, #eaeaea 77%, #eaeaea 100%);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      height: 462px;
+      width: 100%;
+      background: linear-gradient(to right, #f2f2f2 0%, #f2f2f2 50%, #eaeaea 50%, #eaeaea 100%);
     }
   }
 
-  .example__wrapp-dek {
+  .example__wrapper-dekstop {
     display: flex;
     align-content: center;
     justify-content: space-between;

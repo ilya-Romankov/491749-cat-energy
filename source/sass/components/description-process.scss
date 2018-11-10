@@ -1,4 +1,4 @@
-.discription-process {
+.description-process {
   box-sizing: border-box;
   width: 100%;
   padding: 0 0 19px 0;
@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-.discription-process__item {
+.description-process__item {
   position: relative;
   padding-bottom: 25px;
   padding-left: 80px;
@@ -25,7 +25,7 @@
   }
 }
 
-.discription-process__item--sheet {
+.description-process__item--sheet {
   &::before {
     background-image: url("../img/advantage-leaf@1x.png");
 
@@ -35,7 +35,7 @@
   }
 }
 
-.discription-process__item--bottle {
+.description-process__item--bottle {
   &::before {
     background-image: url("../img/advantage-powder@1x.png");
 
@@ -45,7 +45,7 @@
   }
 }
 
-.discription-process__item--canteen {
+.description-process__item--canteen {
   &::before {
     background-image: url("../img/advantage-dining@1x.png");
 
@@ -55,7 +55,7 @@
   }
 }
 
-.discription-process__item--clock {
+.description-process__item--clock {
   &::before {
     background-image: url("../img/advantage-clock@1x.png");
 
@@ -66,7 +66,7 @@
 }
 
 
-.discription-process__link {
+.description-process__link {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -75,16 +75,17 @@
 }
 
 @media (min-width: 768px) {
-  .discription-process {
+  .description-process {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: wrap;
     margin-top: 0;
     margin-bottom: 0;
+    counter-reset: list;
   }
 
-  .discription-process__item {
+  .description-process__item {
     padding-top: 184px;
     padding-bottom: 60px;
     padding-left: 0;
@@ -97,6 +98,8 @@
     }
 
     &::after {
+      counter-increment: list;
+      content: counter(list);
       position: absolute;
       top: 34px;
       left: 115px;
@@ -107,31 +110,7 @@
     }
   }
 
-  .discription-process__item--sheet {
-    &::after {
-      content: "1";
-    }
-  }
-
-  .discription-process__item--bottle {
-    &::after {
-      content: "2";
-    }
-  }
-
-  .discription-process__item--canteen {
-    &::after {
-      content: "3";
-    }
-  }
-
-  .discription-process__item--clock {
-    &::after {
-      content: "4";
-    }
-  }
-
-  .discription-process__link {
+  .description-process__link {
     display: block;
     width: 250px;
     font-size: 16px;
@@ -140,11 +119,11 @@
 }
 
 @media (min-width: 1300px) {
-  .discription-process {
+  .description-process {
     min-height: 0;
   }
 
-  .discription-process__item {
-    width: 250px;
+  .description-process__item {
+    width: 245px;
   }
 }
