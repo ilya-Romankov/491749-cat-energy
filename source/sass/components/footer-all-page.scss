@@ -23,7 +23,7 @@
 .footer-all-page__logo {
   display: block;
   padding-top: 19px;
-  padding-bottom: 30px;
+  padding-bottom: 29px;
   border-bottom: 1px solid #dadada;
 }
 
@@ -108,5 +108,10 @@
 
   .footer-all-page__map {
     margin-top: 0;
+  }
+
+  .footer-all-page__logo {
+    padding-top: 21px;
+    padding-right: 2px;
   }
 }
