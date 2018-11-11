@@ -34,8 +34,12 @@
 
 @media (min-width: 768px) {
   .social {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 40px;
     padding-top: 3px;
-    width: 200px;
+    width: 138px;
     border: 0;
   }
 
@@ -47,8 +51,8 @@
   }
 
   .social__link--space {
-    margin-left: 25px;
-    margin-right: 22px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .social__svg-icon--vk {

@@ -66,6 +66,10 @@
   color: #444444;
 }
 
+.view-program__separator {
+  display: none;
+}
+
 .view-program__link {
   position: relative;
   display: block;
@@ -147,10 +151,14 @@
   }
 
   .view-program__discription {
-    width: 340px;
+    width: 383px;
     margin-left: 32px;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .view-program__separator {
+    display: inline;
   }
 
   .view-program__link {
@@ -211,5 +219,9 @@
 
   .view-program__link {
     margin-top: 35px;
+  }
+
+  .view-program__separator {
+    display: none;
   }
 }
