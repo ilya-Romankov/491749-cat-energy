@@ -17,7 +17,7 @@
   margin-bottom: 29px;
 }
 
-.shared-data__wrapper--radio-programm {
+.shared-data__wrapper--radio-program {
   box-sizing: border-box;
   padding-top: 25px;
   margin: 0 auto;
@@ -115,7 +115,7 @@
     margin-bottom: 52px;
   }
 
-  .shared-data__wrapper--radio-programm {
+  .shared-data__wrapper--radio-program {
     padding-top: 32px;
     margin-bottom: 0;
     width: 630px;
@@ -215,7 +215,7 @@
 }
 
 @media (min-width: 1300px) {
-  .shared-data--dekstop-width {
+  .shared-data--desktop-width {
     width: 570px;
     margin-bottom: 0;
   }
@@ -230,14 +230,14 @@
     padding-bottom: 0;
   }
 
-  .shared-data__wrapper--dekstop-width {
+  .shared-data__wrapper--desktop-width {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
   }
 
-  .shared-data__wrapper--radio-programm {
+  .shared-data__wrapper--radio-program {
     margin-bottom: 0;
   }
 
