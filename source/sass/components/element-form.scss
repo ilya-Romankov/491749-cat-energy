@@ -380,6 +380,10 @@
     padding-left: 58px;
   }
 
+  .element-form--more-margin:not(:nth-child(4n)) {
+    margin-right: 82px;
+  }
+
   .element-form__label--more {
     &::before {
       top: -10px;

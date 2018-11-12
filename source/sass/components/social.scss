@@ -32,13 +32,17 @@
 @media (min-width: 768px) {
   .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding-top: 0;
-    margin-left: 39px;
+    margin-left: 48px;
     margin-right: 0;
-    width: 138px;
+    width: 151px;
     border: 0;
+  }
+
+  .social__item:not(:nth-child(3n)) {
+    margin-right: 26px;
   }
 
   .social__link {
