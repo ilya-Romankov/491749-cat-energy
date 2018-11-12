@@ -20,7 +20,7 @@
 
     <header class="header-all-page">
       <div class="header-all-page__wrapper">
-        <div class="header-all-page__wrapper-logo-switch">
+        <div class="header-all-page__wrapper-logo-switch ">
           <a class="header-all-page__logo logo-main" href="index.html">
             <picture>
               <source media="(min-width: 1300px)" srcset="img/logo-desktop.svg">
@@ -28,7 +28,7 @@
               <img class="logo-main__cat-logo image-cat-logo" src="img/logo-mobile.svg" alt="Картинка логотипа-кот" width="192" height="38">
             </picture>
           </a>
-          <button class="header-all-page__switcher" type="button" name="open-closs"><span class="visiually-hidden">Открыть или закрыть меню</span></button>
+          <button class="header-all-page__switcher header-all-page__switcher--close header-all-page__switcher--open" type="button"><span class="visiually-hidden">Открыть или закрыть меню</span></button>
         </div>
         <nav class="main-navigation">
           <ul class="menu-header">
@@ -42,41 +42,41 @@
 
     <main class="main-form">
       <h1 class="main-form__title title-page">Подбор программы</h1>
-      <section class="filter-programm">
+      <section class="filter-program">
         <h2 class="visiually-hidden">Выбирете значения форм</h2>
-        <div class="filter-programm__wrapper-title">
-          <p class="filter-programm__instruction">Заполните анкету и мы подберем программу питания для вашего кота</p>
+        <div class="filter-program__wrapper-title">
+          <p class="filter-program__instruction">Заполните анкету и мы подберем программу питания для вашего кота</p>
         </div>
-        <form class="filter-programm__form choose-form" action="https://echo.htmlacademy.ru" method="post">
-          <div class="choose-form__wrapper-dek">
-            <fieldset class="choose-form__shared-data shared-data shared-data--mar1 shared-data--dekstop-width">
-              <div class="shared-data__form-wrap shared-data__form-wrap--dekstop-width">
-                <p class="shared-data__element-form element-form shared-data__element-form--start-data">
+        <form class="filter-program__form choose-form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="choose-form__wrapper-desktop">
+            <fieldset class="choose-form__shared-data shared-data shared-data--dekstop-width">
+              <div class="shared-data__form-wrap shared-data__form-wrap--desktop-width shared-data__form-wrap--start-data-margin">
+                <p class="shared-data__element-form element-form">
                   <label class="element-form__label element-form__label--first-data" for="name-cat">Имя:*</label>
                   <input class="element-form__input element-form__input--collect-text" type="text" name="name-cat" id="name-cat" placeholder="Барсик" required="">
                 </p>
-                <p class="shared-data__element-form element-form shared-data__element-form--start-data">
+                <p class="shared-data__element-form element-form">
                   <label class="element-form__label element-form__label--first-data" for="fat-cat">Вес (кг):*</label>
                   <input class="element-form__input element-form__input--collect-text" type="text" name="fat-cat" id="fat-cat" placeholder="7" required="">
                 </p>
-                <p class="shared-data__element-form element-form shared-data__element-form--start-data">
+                <p class="shared-data__element-form element-form">
                   <label class="element-form__label element-form__label--first-data element-form__label--fat-label" for="year-cat">Возраст (лет):</label>
                   <input class="element-form__input element-form__input--collect-text element-form__input--fat-input" type="text" name="year-cat" id="year-cat" placeholder="7">
                 </p>
               </div>
             </fieldset>
             <fieldset class="choose-form__shared-data shared-data shared-data--dekstop-width shared-data--pad">
-              <div class="shared-data__wrapper shared-data__wrapper--radio-programm shared-data__wrapper--dekstop-width">
+              <div class="shared-data__wrapper shared-data__wrapper--radio-program shared-data__wrapper--desktop-width">
                 <div class="shared-data__form-wrap shared-data__form-wrap--radio">
-                  <p class="shared-data__element-form element-form element-form--mode-m">
+                  <p class="shared-data__element-form element-form element-form--radio-margin ">
                     <input class="element-form__input element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="slim-cat" checked="">
                     <label class="element-form__label element-form__label--mode-label" for="slim-cat">Похудение</label>
                   </p>
-                  <p class="shared-data__element-form element-form element-form--mode-m">
+                  <p class="shared-data__element-form element-form element-form--radio-margin">
                     <input class="element-form__input  element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="mas-cat">
                     <label class="element-form__label element-form__label--mode-label" for="mas-cat">Набор массы</label>
                   </p>
-                  <p class="shared-data__element-form element-form element-form--mode-m">
+                  <p class="shared-data__element-form element-form element-form--radio-margin">
                     <input class="element-form__input  element-form__input--radio-btn visiually-hidden" type="radio" name="program" id="dont-cat" disabled="">
                     <label class="element-form__label element-form__label--mode-label" for="dont-cat">Не знаю (нужен ваш совет)</label>
                   </p>
@@ -100,7 +100,7 @@
             </div>
           </fieldset>
           <fieldset class="choose-form__shared-data shared-data">
-            <legend class="shared-data__title shared-data__title--contact"><span class="shared-data__title-sub shared-data__title-sub--conract">Комментарий</span></legend>
+            <legend class="shared-data__title shared-data__title--contact"><span class="shared-data__title-sub shared-data__title-sub--contact">Комментарий</span></legend>
             <div class="shared-data__form-wrap shared-data__form-wrap--comment">
               <textarea class="shared-data__comment comment" rows="8" cols="80" placeholder="Расскажите обо всех повадках кота"></textarea>
             </div>
@@ -108,19 +108,19 @@
           <fieldset class="choose-form__shared-data shared-data">
             <legend class="shared-data__title"><span class="shared-data__title-sub">Дополнительно</span></legend>
             <div class="shared-data__form-wrap shared-data__form-wrap--more-choose">
-              <p class="shared-data__element-form element-form element-form--more-m">
+              <p class="shared-data__element-form element-form element-form--more-margin">
                 <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="sugar" id="sugar" checked="">
                 <label class="element-form__label element-form__label--more" for="sugar">Сахарозаменитель</label>
               </p>
-              <p class="shared-data__element-form element-form element-form--more-m">
+              <p class="shared-data__element-form element-form element-form--more-margin">
                 <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="water" id="water">
                 <label class="element-form__label element-form__label--more" for="water">Питьевая вода</label>
               </p>
-              <p class="shared-data__element-form element-form element-form--more-m">
+              <p class="shared-data__element-form element-form element-form--more-margin">
                 <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="milk" id="milk">
                 <label class="element-form__label element-form__label--more" for="milk">Молоко</label>
               </p>
-              <p class="shared-data__element-form element-form element-form--more-m">
+              <p class="shared-data__element-form element-form element-form--more-margin">
                 <input class="element-form__input element-form__input--checkbox visiually-hidden" type="checkbox" name="vitamin" id="vitamin" disabled="">
                 <label class="element-form__label element-form__label--more" for="vitamin">Витамины</label>
               </p>

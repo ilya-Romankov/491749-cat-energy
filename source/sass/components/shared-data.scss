@@ -17,7 +17,7 @@
   margin-bottom: 29px;
 }
 
-.shared-data__wrapper--radio-programm {
+.shared-data__wrapper--radio-program {
   box-sizing: border-box;
   padding-top: 25px;
   margin: 0 auto;
@@ -26,8 +26,8 @@
   border: 1px solid #ededed;
 }
 
-.shared-data--mar1 {
-  margin-bottom: 13px;
+.shared-data__form-wrap--start-data-margin {
+  margin-bottom: 25px;
 }
 
 .shared-data__title {
@@ -115,10 +115,14 @@
     margin-bottom: 52px;
   }
 
-  .shared-data__wrapper--radio-programm {
+  .shared-data__wrapper--radio-program {
     padding-top: 32px;
     margin-bottom: 0;
     width: 630px;
+  }
+
+  .shared-data__form-wrap--start-data-margin {
+    margin-bottom: 74px;
   }
 
   .shared-data__form-wrap--radio {
@@ -211,27 +215,30 @@
 }
 
 @media (min-width: 1300px) {
-  .shared-data--dekstop-width {
+  .shared-data--desktop-width {
     width: 570px;
+    margin-bottom: 0;
   }
 
-  .shared-data--mar1 {
-    margin-bottom: 0;
-    width: 630px;
+  .shared-data__form-wrap--start-data-margin {
+    box-sizing: border-box;
+    padding-right: 61px;
+    margin-bottom: 20px;
   }
 
   .shared-data--pad {
     padding-bottom: 0;
+    padding-left: 20px;
   }
 
-  .shared-data__wrapper--dekstop-width {
+  .shared-data__wrapper--desktop-width {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
   }
 
-  .shared-data__wrapper--radio-programm {
+  .shared-data__wrapper--radio-program {
     margin-bottom: 0;
   }
 
@@ -255,29 +262,31 @@
   .shared-data__title {
     width: 1220px;
 
+    &::after,
+    &::before {
+      display: none;
+    }
+  }
+
+  .shared-data__title-sub {
+    &::before,
     &::after {
       content: "";
       position: absolute;
       z-index: -1;
-      left: 172px;
-      top: 22px;
-      width: 100%;
-      margin-right: -100%;
+      top: 0;
+      margin-top: 21px;
+      width: 100vw;
       height: 3px;
-      background: #68b738;
+      background-color: #68b738;
     }
 
     &::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      left: -40px;
-      top: 22px;
-      display: block;
-      width: 100%;
-      margin-left: -100%;
-      height: 3px;
-      background: #68b738;
+      right: 103%;
+    }
+
+    &::after {
+      left: 0;
     }
   }
 
@@ -290,7 +299,7 @@
   }
 
   .shared-data__form-wrap--more-choose {
-    width: 1160px;
+    width: 1220px;
     margin-bottom: 20px;
   }
 }

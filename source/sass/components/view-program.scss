@@ -55,15 +55,19 @@
   text-transform: uppercase;
 }
 
-.view-program__discription {
+.view-program__description {
   margin-bottom: 20px;
   padding-left: 20px;
   padding-right: 15px;
-  font-family: "Arial MT", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   color: #444444;
+}
+
+.view-program__separator {
+  display: none;
 }
 
 .view-program__link {
@@ -93,6 +97,7 @@
   &:hover {
     &::after {
       background: url("../img/icon-right-arrow-verylong.svg") no-repeat;
+      width: 31px;
     }
   }
 
@@ -146,11 +151,15 @@
     line-height: 37px;
   }
 
-  .view-program__discription {
-    width: 340px;
+  .view-program__description {
+    width: 383px;
     margin-left: 32px;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .view-program__separator {
+    display: inline;
   }
 
   .view-program__link {
@@ -205,11 +214,15 @@
     margin-bottom: 70px;
   }
 
-  .view-program__discription {
+  .view-program__description {
     width: 470px;
   }
 
   .view-program__link {
     margin-top: 35px;
+  }
+
+  .view-program__separator {
+    display: none;
   }
 }

@@ -63,7 +63,7 @@
   padding-right: 15px;
 }
 
-.element-form--mode-m {
+.element-form--radio-margin {
   margin-bottom: 25px;
 }
 
@@ -200,7 +200,7 @@
   opacity: 1;
 }
 
-.element-form--more-m {
+.element-form--more-margin {
   margin-bottom: 24px;
   padding-left: 46px;
 }
@@ -266,7 +266,7 @@
     line-height: 20px;
   }
 
-  .element-form--more-m {
+  .element-form--more-margin {
     width: 200px;
     padding-left: 30px;
     margin-bottom: 52px;
@@ -326,7 +326,7 @@
     }
   }
 
-  .element-form--mode-m {
+  .element-form--radio-margin {
     padding-bottom: 12px;
   }
 
@@ -375,8 +375,9 @@
 }
 
 @media (min-width: 1300px) {
-  .element-form--more-m {
-    width: 158px;
+  .element-form--more-margin {
+    width: 185px;
+    padding-left: 58px;
   }
 
   .element-form__label--more {

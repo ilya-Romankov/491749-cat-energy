@@ -1,4 +1,8 @@
 .element-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 17px;
+  padding-right: 17px;
   padding-bottom: 20px;
   border-bottom: 1px solid #ededed;
 }
@@ -8,7 +12,7 @@
 }
 
 .element-list__title {
-  width: 73px;
+  width: 80px;
   margin-top: 20px;
   margin-bottom: 13px;
 }
@@ -36,7 +40,9 @@
 
 @media (min-width: 768px) {
   .element-list {
+    justify-content: center;
     margin-top: 140px;
+    padding: 0;
     padding-bottom: 38px;
     width: 324px;
     border: none;
