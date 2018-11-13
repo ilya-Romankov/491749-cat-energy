@@ -1,13 +1,12 @@
 .social {
   width: 136px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 8px;
   list-style: none;
 }
 
@@ -15,6 +14,11 @@
   display: block;
   width: 22px;
   height: 19px;
+  padding-bottom: 7px;
+}
+
+.social__item:not(:nth-child(3n)) {
+  margin-right: 35px;
 }
 
 .social__svg-icon {
